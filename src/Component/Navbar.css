@@ -1,6 +1,7 @@
 .helper{
     display: flex;
     align-items: center;
+    border: #ffffff;
 
     /*justify-content: space-between;*/
     
