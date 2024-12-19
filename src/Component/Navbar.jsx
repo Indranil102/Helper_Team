@@ -8,6 +8,9 @@ const Navbar = () => {
             HelperTeam
         </h2>
         <h4 >
+            Home
+        </h4>
+        <h4 >
             PYQ
         </h4>
         <h4 >
@@ -16,7 +19,7 @@ const Navbar = () => {
         <h4>
             Tutorials
         </h4>
-        <button className='signin'>Sign in</button>
+        <button>Sign in</button>
 
       </div>
     </div>
