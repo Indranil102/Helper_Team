@@ -8,18 +8,18 @@ const Navbar = () => {
             HelperTeam
         </h2>
         <h4 >
-            Home
+           <button> Home </button>
         </h4>
         <h4 >
-            PYQ
+          <button>  PYQ </button>
         </h4>
         <h4 >
-            Notes
+           <button> Notes</button>
         </h4>
         <h4>
-            Tutorials
+        <button>Tutorials</button>
         </h4>
-        <button>Sign in</button>
+        <button className='signin'>Sign in</button>
 
       </div>
     </div>

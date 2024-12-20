@@ -1,6 +1,6 @@
 
 
-import Navbar from './Component/Navbar';
+import Navbar from './Component/Navbar/Navbar.jsx';
 
 function App() {
   return (
