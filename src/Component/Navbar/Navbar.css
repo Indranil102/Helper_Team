@@ -3,7 +3,7 @@
     align-items: center;
     border: #ffffff;
     max-width: 100%;
-    
+    max-height: fit-content;
 }
 .helper h2{
     margin-left: 150px;
@@ -18,7 +18,7 @@ h4 button {
     margin-top: 2px;
     margin-left: 120px;
     color: rgb(255, 255, 255); 
-    border: none; 
+    border: 2px solid rgb(44,44,44); 
     background: none; 
     padding: 8px 16px; 
     border-radius: 25px; 
@@ -30,9 +30,8 @@ h4 button {
 h4 button:hover {
     border: 2px solid purple; 
     color: white;
-    transform: scale(1.1); 
-    margin-left: 119px;
-    margin-top: 0px;
+    transform: scale(1.1);
+    
 }
 
 
