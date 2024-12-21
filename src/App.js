@@ -17,7 +17,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='./Pages/home/HomePage' element={<HomePage/>} />
-        <Route path='./Pages/lactures/Lactures' element={<Lactures/>} />
+        <Route path='./Pages/lactures/Lactures./Pages/lactures/Lactures' element={<Lactures/>} />
         <Route path='./Pages/notes/Notes' element={<Notes/>} />
         <Route path='./Pages/pyq/Pyq' element={<Pyq/>} />
         <Route path='./Pages/about/About' element={<About/>} />
