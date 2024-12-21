@@ -1,12 +1,16 @@
 import React from 'react'
-import './HeroSection.css'
-const HeroSection = () => {
+
+
+const HomePage = () => {
   return (
-    <div className='HeroSection'>
+    <div>
+        <div className='HeroSection'>
         <div className="content">
             <div className="left-Content">
                 <h2>HelperTeam</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet inventore tempore quos corrupti, ratione odit veritatis similique iste odio fugit minus nihil, quas nulla, illum praesentium. Error, ullam perspiciatis!</p>
+                <p>Elevate your Academic journey with our website!
+                 Find notes, past question papers, and essential tools to excel academically.
+                 Join thousands of students who trust us as their go-to resource hub. Take the next step towards success today!</p>
                 <div className="container">
                     <div className="click">
                         <img src="" alt="" />
@@ -34,7 +38,9 @@ const HeroSection = () => {
         </div>
       
     </div>
+   
+    </div>
   )
 }
 
-export default HeroSection
+export default HomePage

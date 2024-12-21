@@ -17,7 +17,10 @@ const Navbar = () => {
            <button> Notes</button>
         </h4>
         <h4>
-        <button>Tutorials</button>
+        <button>JUET Server</button>
+        </h4>
+        <h4>
+        <button>About</button>
         </h4>
         <button className='signin'>Sign in</button>
 
