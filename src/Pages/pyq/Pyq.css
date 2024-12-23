@@ -1,0 +1,55 @@
+    /* Style the dropdown container */
+    .navbar{
+        margin-top: 60px;
+        border-bottom: 1px solid white;
+    }
+    .second-part{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 100px;
+        color: aliceblue;
+        font-size: 20px;
+        font-weight: 600;
+        gap: 30px;
+
+    }
+
+    .second-part img{
+        gap: 30px;
+    }
+    
+
+
+.dropdown-container {
+    display: flex; /* Align buttons horizontally */
+    gap: 5px; /* Add gap between the buttons */
+    margin-right: 10px; /* Add space between buttons and right edge */
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+   
