@@ -5,6 +5,7 @@ import noteswriting from '../../Images/pencil.png'
 import pyqpaper from '../../Images/file.png'
 import juet from '../../Images/juet.png'
 import arrow from '../../Images/right-arrow.png'
+import illustrator from '../../Images/illustratoer.jpg'
 const HomePage = () => {
   return (
     
@@ -74,7 +75,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="right">
-                <img src='' alt="illuststion" />
+            <img src={illustrator} alt="illuststion" />
             </div>
 
         </div>
