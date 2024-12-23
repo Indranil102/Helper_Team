@@ -5,7 +5,7 @@ import noteswriting from '../../Images/pencil.png'
 import pyqpaper from '../../Images/file.png'
 import juet from '../../Images/juet.png'
 import arrow from '../../Images/right-arrow.png'
-import illustrator from '../../Images/illustratoer.jpg'
+import illustrator from '../../Images/illustratoer.png'
 const HomePage = () => {
   return (
     
