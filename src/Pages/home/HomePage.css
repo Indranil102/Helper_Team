@@ -168,6 +168,13 @@ h4 button:hover {
 }
 .extra h3{
     margin: 0;
+    gap: 15px;
+}
+.extra h3 img{
+    width: 20px;
+    height: 18px;
+    margin-left: 10px;
+    filter: invert(1) brightness(2);
 }
 .extra .imp h5{
     padding: 15px 25px;
