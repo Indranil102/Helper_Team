@@ -17,10 +17,10 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<HomePage/>} />
-        <Route path='./Pages/lectures/Lectures' element={<Lectures/>} />
-        <Route path='./Pages/notes/Notes' element={<Notes/>} />
-        <Route path='./Pages/pyq/Pyq' element={<Pyq/>} />
-        <Route path='./Pages/about/About' element={<About/>} />
+        <Route path='/Lectures' element={<Lectures/>} />
+        <Route path='/Notes' element={<Notes/>} />
+        <Route path='/Pyq' element={<Pyq/>} />
+        <Route path='/About' element={<About/>} />
 
       </Routes>
     </Router>
