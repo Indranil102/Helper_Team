@@ -1,7 +1,10 @@
 import React from 'react'
 import './HomePage.css'  
 import lectureimg from '../../Images/laptop.png'
-
+import noteswriting from '../../Images/pencil.png'
+import pyqpaper from '../../Images/file.png'
+import juet from '../../Images/large_Jaypee_University_of_Engineering_and_Technology_Guna_JUET_Guna_dbc4938677_2500db8640.png'
+import arrow from '../../Images/right-arrow.png'
 const HomePage = () => {
   return (
     
@@ -56,27 +59,27 @@ const HomePage = () => {
                         <p>Lectures</p>
                     </div>
                     <div className="click">
-                        <img src="" alt="" />
+                        <img src={noteswriting} alt="" />
                         <p>Notes</p>
                     </div>
                     <div className="click">
-                        <img src="" alt="" />
+                        <img src={pyqpaper} alt="" />
                         <p>PYQ</p>
                     </div>
                     <div className="click">
-                        <img src="" alt="" />
-                        <p>TUTORIALS</p>
+                        <img src={juet} alt="" />
+                        <p>JUET Server</p>
                     </div>
                     
                 </div>
             </div>
             <div className="right">
-                <img src="" alt="" />
+                <img src='' alt="illuststion" />
             </div>
 
         </div>
         <div className="extra">
-            <h3>Important <img src="" alt="arrow" /></h3>
+            <h3>Important <img src={arrow} alt="arrow" /></h3>
             <div className='imp'>
                 <h5>JUET</h5>
                 <h5>webkisok</h5>
