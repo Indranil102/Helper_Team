@@ -1,20 +1,25 @@
 .navbar {
-    background-color: rgb(39,39,42); 
-    width: 80%; /* Default width */
+    background-color: rgb(39, 39, 42); 
+    width: 80%; 
     height: 60px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 15px;
-    padding: 0 20px;
+    
+    padding: 0 15px;
     transition: width 0.3s ease-in-out; 
+    border: 1px solid white;
 }
+
+
+
 .helper {
     display: flex;
     align-items: center;
     border: #ffffff;
     max-width: 100%;
+    list-style-type: none;
 
     max-height: fit-content;
 
@@ -22,7 +27,7 @@
 
 .helper h2 {
     margin-left: 50px;
-    margin-right: 500px;
+    margin-right: 470px;
     font-weight: 800;
     font-size: 26px;
     gap: 15px;
