@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomePage.css'  
+import lectureimg from '../../Images/laptop.png'
 
 const HomePage = () => {
   return (
@@ -51,7 +52,7 @@ const HomePage = () => {
                  Join thousands of students who trust us as their go-to resource hub. Take the next step towards success today!</p>
                 <div className="container">
                     <div className="click">
-                        <img src="" alt="" />
+                        <img src={lectureimg} alt="" />
                         <p>Lectures</p>
                     </div>
                     <div className="click">
