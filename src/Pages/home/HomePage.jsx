@@ -74,19 +74,17 @@ const HomePage = () => {
             </div>
 
         </div>
-      
-    </div>
-    <div>
         <div className="extra">
             <h3>Important <img src="" alt="arrow" /></h3>
             <div className='imp'>
-            <h5>JUET</h5>
-            <h5>webkisok</h5>
+                <h5>JUET</h5>
+                <h5>webkisok</h5>
             </div>
            
 
         </div>
     </div>
+    
    
     </div>
   )
