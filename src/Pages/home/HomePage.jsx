@@ -3,7 +3,7 @@ import './HomePage.css'
 import lectureimg from '../../Images/laptop.png'
 import noteswriting from '../../Images/pencil.png'
 import pyqpaper from '../../Images/file.png'
-import juet from '../../Images/large_Jaypee_University_of_Engineering_and_Technology_Guna_JUET_Guna_dbc4938677_2500db8640.png'
+import juet from '../../Images/juet.png'
 import arrow from '../../Images/right-arrow.png'
 const HomePage = () => {
   return (
