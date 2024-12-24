@@ -1,18 +1,18 @@
     /* Style the dropdown container */
     .navbar{
         margin-top: 0px;
-        border-bottom: 1px solid white;
+        
     }
     .second-part{
         display: flex;
         flex-direction: row;
         margin-top: 20px;
-        margin-left: 100px;
-        color: aliceblue;
+        color: white;
         font-size: 20px;
         font-weight: 600;
         gap: 30px;
-
+        border-bottom: 2px solid white;
+        padding-bottom: 12px;
     }
 
     .second-part img{
@@ -25,6 +25,8 @@
     
 .second-two{
   margin-right: 650px;
+  margin-left: 100px;
+  padding-bottom: 20px;
 }
 
 .dropdown-container {
@@ -80,4 +82,20 @@
     flex-direction: column;
     
   }
-   
+.left-part{
+  margin-top: 40px;
+  width: 25%;
+}
+.left-part .info{
+  margin-left: 50px;
+  width: 100%;
+  height: 10vh;
+  border: 1px solid white;
+  margin-top: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  cursor: pointer; 
+}
+.left-part .info:hover{
+  transform: translateY(-5px); 
+  background-color: blueviolet;
+} 
