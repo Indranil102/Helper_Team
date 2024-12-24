@@ -4,11 +4,11 @@ import './Pyq.css'
 import Navbar from '../../Component/Navbar/Navbar'
 import downarrow from'../../Images/drop-down-arrow.png'
 import notebook from '../../Images/file.png'
-import SelectYear from '../selectyear/SelectYear'
+
 const Pyq = () => {
   return (
     <div>
-     <SelectYear/>
+    
       <div className="navbar">
           <Navbar/>
       </div>
