@@ -181,16 +181,22 @@ h4 button:hover {
     filter: invert(1) brightness(2);
 }
 .extra .imp h5{
-    padding: 15px 25px;
+    padding: 8px 18px;
     border: 1px solid white;
     border-radius:5px ;
     color: white;
     font-size: 20px;
-    font-weight: 800;
+    background-color: rgb(74, 60, 180);
+    
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
     cursor: pointer; 
 }
+.extra .imp h5 img{
+    gap: 15px;
+    width: 15px;
+    height: 15px;
+}
 .extra .imp h5:hover{
     transform: translateY(-5px); 
-    background-color: blueviolet;
+    
 }
