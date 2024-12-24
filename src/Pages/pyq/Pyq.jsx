@@ -4,9 +4,11 @@ import './Pyq.css'
 import Navbar from '../../Component/Navbar/Navbar'
 import downarrow from'../../Images/drop-down-arrow.png'
 import notebook from '../../Images/file.png'
+import SelectYear from '../selectyear/SelectYear'
 const Pyq = () => {
   return (
     <div>
+     <SelectYear/>
       <div className="navbar">
           <Navbar/>
       </div>
@@ -14,15 +16,15 @@ const Pyq = () => {
       <div className="second-part">
         <div className='second-two'><img src={notebook} alt="ik" /> PREVIOUS YEAR QUESTION </div>
         <div class="dropdown">
-        <button class="dropdown-button">Dropdown1 <img src={downarrow} alt="dropdown" /></button>
-        <div class="dropdown-content">
+        <button class="dropdown-button">End_Sem <img src={downarrow} alt="dropdown" /></button>
+        <div class="dropdown-content"> 
           <a href="#link1">Link 1</a>
           <a href="#link2">Link 2</a>
           <a href="#link3">Link 3</a>
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropdown-button">Dropdown <img src={downarrow} alt="dropdown" /></button>
+        <button class="dropdown-button">Foundation<img src={downarrow} alt="dropdown" /></button>
     <div class="dropdown-content">
       <a href="#link1">Link 1</a>
       <a href="#link2">Link 2</a>
