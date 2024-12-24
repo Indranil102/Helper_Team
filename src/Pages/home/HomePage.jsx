@@ -48,8 +48,8 @@ const HomePage = () => {
         <div className="extra">
             <h3>Important <img src={arrow} alt="arrow" /></h3>
             <div className='imp'>
-                <h5>JUET</h5>
-                <h5>webkisok</h5>
+                <h5>Jaypee<img src="" alt="jp" /></h5>
+                <h5>Webkiosk<img src="" alt="jp" /></h5>
             </div>
            
 
