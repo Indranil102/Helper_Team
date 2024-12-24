@@ -3,11 +3,10 @@ import './SelectYear.css';
 import Pyq from '../pyq/Pyq';
 
 const SelectYear = () => {
-  const [selectedYear, setSelectedYear] = useState(null); // Track selected year
+  const [selectedYear, setSelectedYear] = useState(null); 
 
-  // Handle year selection
   const handleYearClick = (year) => {
-    setSelectedYear(year); // Set the selected year
+    setSelectedYear(year); 
   };
 
   return (
