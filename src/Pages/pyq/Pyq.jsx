@@ -38,6 +38,7 @@ const Pyq = () => {
         <div className='info'>CT <img src="" alt="arrow" /></div>
         <div className='info'>CT <img src="" alt="arrow" /></div>
         <div className='info'>CT <img src="" alt="arrow" /></div>
+        <div className='info'>CT <img src="" alt="arrow" /></div>
       </div>
     </div>
       
