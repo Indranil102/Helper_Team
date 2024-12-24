@@ -1,6 +1,6 @@
     /* Style the dropdown container */
     .navbar{
-        margin-top: 60px;
+        margin-top: 0px;
         border-bottom: 1px solid white;
     }
     .second-part{
@@ -17,6 +17,10 @@
 
     .second-part img{
         gap: 30px;
+        width: 8px;
+        height: 1vh;
+        filter: invert(1) brightness(2);
+        padding-left: 1px;
     }
     
 .second-two{
@@ -24,13 +28,14 @@
 }
 
 .dropdown-container {
-    display: flex; /* Align buttons horizontally */
-    gap: 5px; /* Add gap between the buttons */
-    margin-right: 10px; /* Add space between buttons and right edge */
+    display: flex;
+    gap: 5px; 
+    margin-right: 10px; 
     flex-direction: column;
   }
   .dropdown {
     position: relative;
+    
   }
   
   .dropdown-button {
@@ -41,6 +46,7 @@
     cursor: pointer;
     border-radius: 10px;
     font-size: 14px;
+    min-width: 160px;
   }
   
   .dropdown-content {
@@ -48,6 +54,7 @@
     position: absolute;
     background-color: rgb(39, 39, 42);
     min-width: 160px;
+
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border: 1px solid whitesmoke;
