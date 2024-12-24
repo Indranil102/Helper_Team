@@ -2,6 +2,8 @@ import React from 'react'
 
 import './Pyq.css'
 import Navbar from '../../Component/Navbar/Navbar'
+import downarrow from'../../Images/drop-down-arrow.png'
+import notebook from '../../Images/file.png'
 const Pyq = () => {
   return (
     <div>
@@ -10,9 +12,9 @@ const Pyq = () => {
       </div>
 
       <div className="second-part">
-        <div className='second-two'><img src="" alt="ik" /> PREVIOUS YEAR QUESTION </div>
+        <div className='second-two'><img src={notebook} alt="ik" /> PREVIOUS YEAR QUESTION </div>
         <div class="dropdown">
-        <button class="dropdown-button">Dropdown <img src="" alt="dropdown" /></button>
+        <button class="dropdown-button">Dropdown1 <img src={downarrow} alt="dropdown" /></button>
         <div class="dropdown-content">
           <a href="#link1">Link 1</a>
           <a href="#link2">Link 2</a>
@@ -20,7 +22,7 @@ const Pyq = () => {
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropdown-button">Dropdown <img src="" alt="dropdown" /></button>
+        <button class="dropdown-button">Dropdown <img src={downarrow} alt="dropdown" /></button>
     <div class="dropdown-content">
       <a href="#link1">Link 1</a>
       <a href="#link2">Link 2</a>
@@ -28,6 +30,16 @@ const Pyq = () => {
     </div>
     </div>
         </div>
+    
+    <div>
+      <div className="left-part">
+        <div className='info'>CT <img src="" alt="arrow" /></div>
+        <div className='info'>CT <img src="" alt="arrow" /></div>
+        <div className='info'>CT <img src="" alt="arrow" /></div>
+        <div className='info'>CT <img src="" alt="arrow" /></div>
+        <div className='info'>CT <img src="" alt="arrow" /></div>
+      </div>
+    </div>
       
     </div>
   )
