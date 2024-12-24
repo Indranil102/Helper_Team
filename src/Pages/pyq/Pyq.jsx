@@ -1,11 +1,12 @@
 import React from 'react'
 
 import './Pyq.css'
+import Navbar from '../../Component/Navbar/Navbar'
 const Pyq = () => {
   return (
     <div>
       <div className="navbar">
-
+          <Navbar/>
       </div>
 
       <div className="second-part">

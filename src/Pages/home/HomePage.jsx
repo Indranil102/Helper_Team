@@ -6,47 +6,13 @@ import pyqpaper from '../../Images/file.png'
 import juet from '../../Images/juet.png'
 import arrow from '../../Images/right-arrow.png'
 import illustrator from '../../Images/illustratoer.png'
+import Navbar from '../../Component/Navbar/Navbar'
+
 const HomePage = () => {
   return (
     
     <div>
-        <div className='Navbar'>
-      <ul className="helper">
-        <li>
-            <h2 >
-                HelperTeam
-            </h2>
-        </li>
-        <li>
-            <h4 >
-                <button> Home </button>
-            </h4>
-        </li>
-        <li>
-            <h4 >
-                <button>  PYQ </button>
-            </h4>
-        </li>
-        <li>
-            <h4 >
-                <button> Notes</button>
-            </h4>
-        </li>
-        <li>
-            <h4>
-                <button>JUET Server</button>
-            </h4>
-        </li>
-        <li>
-            <h4>
-                <button>About</button>
-            </h4>
-        </li>
-        <li>
-            <button className='signin'>Sign in</button>
-        </li>
-      </ul>
-    </div>
+        <Navbar/>
         <div className='HeroSection'>
         <div className="content">
             <div className="left-Content">
