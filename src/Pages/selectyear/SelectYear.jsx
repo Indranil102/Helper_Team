@@ -32,8 +32,8 @@ const SelectYear = () => {
         </div>
       ) : (
         <div className="year-page">
-          <h1>{selectedYear} Page</h1>
-          <p>Welcome to the page for {selectedYear}. <Pyq/></p>
+          
+            <Pyq/>
         </div>
       )}
       
