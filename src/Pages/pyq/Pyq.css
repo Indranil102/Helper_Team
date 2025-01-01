@@ -75,14 +75,13 @@
   }
   .dropdown-content a:hover{
     transform: translateY(-5px); 
-    background-color: blueviolet;
+    background-color: rgb(74, 60, 180);
   }
   .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
     
   }
-
   .left-part {
     display: flex;
     flex-direction: column;
