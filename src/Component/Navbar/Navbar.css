@@ -1,7 +1,8 @@
-
 body {
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .Navbar {
@@ -12,33 +13,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     padding: 0 15px;
     transition: width 0.3s ease-in-out; 
     border-style: solid;
     border-color: white;
     border-width: 0 0 2px 0;
-    
-     
+    box-sizing: border-box;
 }
-
-
 
 .helper {
     display: flex;
     align-items: center;
-    border: #ffffff;
-
-    max-width: 100%;
     list-style-type: none;
-
-    max-height: fit-content;
-
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .helper h2 {
     margin-left: 20px;
-    margin-right: 500px;
+    margin-right: auto;
     font-weight: 800;
     font-size: 26px;
     gap: 15px;
@@ -46,45 +39,58 @@ body {
     cursor: pointer;
 }
 
-h4 button {
-    margin-top: 2px;
-    margin-left: 30px;
+h4 button, .helper .signin {
+    margin-left: 20px;
+    margin-top: 5px;
     color: rgb(208, 207, 207); 
     border: 2px solid rgb(39,39,42); 
     background: none; 
     padding: 8px 16px; 
     border-radius: 25px; 
     cursor: pointer; 
-    font-size: 20px; 
-    transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-h4 button:hover {
-    border: 2px solid purple; 
-    color: white;
-
-    transform: scale(1.1);
-    
-
-    transform: scale(1.1) translateY(-2px); 
-}
-
-.helper .signin {
-    margin-left: 30px; 
-    color: rgb(239, 238, 238); 
-    border: 2px solid rgb(39,39,42); 
-    background: none; 
-    padding: 8px 16px; 
-    border-radius: 25px; 
-    cursor: pointer; 
     font-family: Arial, sans-serif; 
-    font-size: 20px; 
+    font-size: 18px; 
     transition: all 0.3s ease;
 }
 
-.helper button:hover {
+h4 button:hover, .helper .signin:hover {
     color: white; 
-    border-color: white; 
+    border-color: purple; 
     transform: scale(1.1) translateY(-2px); 
 }
 
+@media (max-width: 768px) {
+    .Navbar {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .helper h2 {
+        font-size: 22px;
+        margin-right: 0;
+    }
+
+    h4 button, .helper .signin {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .helper h2 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    h4 button, .helper .signin {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .helper {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
