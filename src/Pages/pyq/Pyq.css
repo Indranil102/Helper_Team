@@ -96,13 +96,14 @@ div {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px; /* Spacing between each "info" div */
+  height: 450px;
   padding: 20px;
   background-color: #303030; /* Light background color for visibility */
-  /* Optional border for the container */
-  border-radius: 10px;
+  border-right: 1px solid white; /* Optional border for the container */
+  
   width: 500px;
   margin-left: 100px; /* Added margin-left */
-  margin-top: 70px; /* Added margin-top */
+  margin-top: 50px; /* Added margin-top */
 }
 
 /* Styling for each info div containing "CT" */
