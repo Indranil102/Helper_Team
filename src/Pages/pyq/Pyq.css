@@ -12,7 +12,8 @@
         font-weight: 600;
         gap: 30px;
         border-bottom: 2px solid white;
-        padding-bottom: 12px;
+        padding-bottom: 15px;
+        padding-top: 15px;
     }
 
     .second-part img{
@@ -90,6 +91,10 @@ div {
   box-sizing: border-box;
 }
 
+.main-part{
+  display: flex;
+  flex-direction: row;
+}
 /* Styling for the left-part container */
 .left-part {
   display: flex;
@@ -103,7 +108,7 @@ div {
   
   width: 500px;
   margin-left: 100px; /* Added margin-left */
-  margin-top: 50px; /* Added margin-top */
+  padding-top: 50px; /* Added margin-top */
 }
 
 /* Styling for each info div containing "CT" */
@@ -135,4 +140,64 @@ div {
 .info img {
   width: 20px; /* Set the size of the arrow image */
   height: 20px;
+}
+
+
+.file-table {
+  width: 100%;
+  max-width: 980px;
+  
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.file-table-header{
+  display: flex;
+  flex-direction: row;
+  gap:680px;
+  margin-left: 80px;
+  color: white;
+}
+
+.file-row {
+  display: flex;
+  width: 90%;
+  height: 60px;
+  gap:620px;
+  margin-left: 50px;
+  align-items: center;
+  padding: 10px 5px;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+}
+
+
+
+.file-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.file-title img {
+  width: 20px;
+  height: 20px;
+}
+
+.file-url a {
+  text-decoration: none;
+}
+
+.file-url img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.file-url img:hover {
+  transform: scale(1.2);
 }
