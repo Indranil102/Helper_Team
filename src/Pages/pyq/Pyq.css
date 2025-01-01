@@ -75,7 +75,7 @@
   }
   .dropdown-content a:hover{
     transform: translateY(-5px); 
-    background-color: blueviolet;
+    background-color: rgb(74, 60, 180);
   }
   .dropdown:hover .dropdown-content {
     display: flex;
@@ -84,18 +84,20 @@
   }
 .left-part{
   margin-top: 40px;
-  width: 25%;
+  width: 35%;
+  
+  border-right: 2px solid white;
 }
 .left-part .info{
   margin-left: 50px;
-  width: 100%;
+  width: 450px;
   height: 10vh;
-  border: 1px solid white;
+  
   margin-top: 5px;
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
   cursor: pointer; 
 }
 .left-part .info:hover{
   transform: translateY(-5px); 
-  background-color: blueviolet;
+  background-color:rgb(74, 60, 180);
 } 
