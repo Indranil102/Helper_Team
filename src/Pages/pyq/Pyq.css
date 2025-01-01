@@ -12,7 +12,8 @@
         font-weight: 600;
         gap: 30px;
         border-bottom: 2px solid white;
-        padding-bottom: 12px;
+        padding-bottom: 15px;
+        padding-top: 15px;
     }
 
     .second-part img{
@@ -103,7 +104,7 @@ div {
   
   width: 500px;
   margin-left: 100px; /* Added margin-left */
-  margin-top: 50px; /* Added margin-top */
+  padding-top: 50px; /* Added margin-top */
 }
 
 /* Styling for each info div containing "CT" */
