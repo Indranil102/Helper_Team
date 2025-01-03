@@ -6,7 +6,7 @@ import Navbar from '../../Component/Navbar/Navbar';
 import { FaArrowRight } from "react-icons/fa";
 import { BsPencilSquare } from "react-icons/bs";
 import { FaRegFileAlt } from "react-icons/fa";
-import { FiServer } from "react-icons/fi";
+import { HiOutlineServer } from "react-icons/hi";
 
 const HomePage = () => {
   return (
@@ -34,7 +34,7 @@ const HomePage = () => {
                         <p>PYQ</p>
                     </div>
                     <div className="click">
-                        <FiServer />
+                        <HiOutlineServer />
                         <p>JUET Server</p>
                     </div>
                     
