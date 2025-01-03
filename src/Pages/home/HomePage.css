@@ -143,8 +143,6 @@ h4 button:hover {
     height: 50px; 
     object-fit: contain; 
     margin-bottom: 5px; 
-    filter: invert(1) brightness(2);
-    
 }
 
 .click p {

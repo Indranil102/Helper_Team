@@ -11,6 +11,7 @@ import Pyq from './Pages/pyq/Pyq';
 import Notes from './Pages/notes/Notes';
 import Lectures from './Pages/lectures/Lectures';
 import SelectYear from './Pages/selectyear/SelectYear';
+import Juetserver from './Pages/Juetserver/Juetserver';
 
 function App() {
   const [selectedYear, setSelectedYear] = useState(null);
@@ -51,6 +52,10 @@ function App() {
         <Route
           path="/select-year"
           element={<SelectYear onYearSelect={handleYearSelection} />}
+        />
+        <Route
+          path="/Juetserver"
+          element={<ProtectedRoute element={<Juetserver selectedYear={selectedYear}/>} />}
         />
 
         {/* Redirect unknown paths to home */}

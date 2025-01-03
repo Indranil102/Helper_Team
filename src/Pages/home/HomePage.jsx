@@ -1,12 +1,12 @@
 import React from 'react'
 import './HomePage.css'  
-import lectureimg from '../../Images/laptop.png'
-import noteswriting from '../../Images/pencil.png'
-import pyqpaper from '../../Images/file.png'
-import juet from '../../Images/juet.png'
-import arrow from '../../Images/right-arrow.png'
-import illustrator from '../../Images/illustratoer.png'
-import Navbar from '../../Component/Navbar/Navbar'
+import { RxLaptop } from "react-icons/rx";
+import illustrator from "../../Images/illustratoer.png";
+import Navbar from '../../Component/Navbar/Navbar';
+import { FaArrowRight } from "react-icons/fa";
+import { BsPencilSquare } from "react-icons/bs";
+import { FaRegFileAlt } from "react-icons/fa";
+import { FiServer } from "react-icons/fi";
 
 const HomePage = () => {
   return (
@@ -22,19 +22,19 @@ const HomePage = () => {
                  Join thousands of students who trust us as their go-to resource hub. Take the next step towards success today!</p>
                 <div className="container">
                     <div className="click">
-                        <img src={lectureimg} alt="" />
+                        <RxLaptop />
                         <p>Lectures</p>
                     </div>
                     <div className="click">
-                        <img src={noteswriting} alt="" />
+                        <BsPencilSquare />
                         <p>Notes</p>
                     </div>
                     <div className="click">
-                        <img src={pyqpaper} alt="" />
+                        <FaRegFileAlt />
                         <p>PYQ</p>
                     </div>
                     <div className="click">
-                        <img src={juet} alt="" />
+                        <FiServer />
                         <p>JUET Server</p>
                     </div>
                     
@@ -46,7 +46,7 @@ const HomePage = () => {
 
         </div>
         <div className="extra">
-            <h3>Important <img src={arrow} alt="arrow" /></h3>
+            <h3>Important <FaArrowRight /></h3>
             <div className='imp'>
                 <h5>Jaypee<img src="" alt="jp" /></h5>
                 <h5>Webkiosk<img src="" alt="jp" /></h5>
