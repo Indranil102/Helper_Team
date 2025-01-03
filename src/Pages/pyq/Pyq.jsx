@@ -2,8 +2,11 @@ import React from 'react'
 
 import './Pyq.css'
 import Navbar from '../../Component/Navbar/Navbar'
-import downarrow from'../../Images/drop-down-arrow.png'
-import notebook from '../../Images/file.png'
+import { CiStickyNote } from "react-icons/ci";
+import { RiArrowDropDownLine } from "react-icons/ri";
+import { LuCloudDownload } from "react-icons/lu";
+import { IoLinkOutline } from "react-icons/io5";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const Pyq = () => {
   return (
@@ -14,9 +17,9 @@ const Pyq = () => {
       </div>
 
       <div className="second-part">
-        <div className='second-two'><img src={notebook} alt="ik" /> PREVIOUS YEAR QUESTION </div>
+        <div className='second-two'><CiStickyNote /> PREVIOUS YEAR QUESTION </div>
         <div class="dropdown">
-        <button class="dropdown-button">End_Sem <img src={downarrow} alt="dropdown" /></button>
+        <button class="dropdown-button">End_Sem <MdOutlineKeyboardArrowDown /></button>
         <div class="dropdown-content"> 
           <a href="#link1">Link 1</a>
           <a href="#link2">Link 2</a>
@@ -24,7 +27,7 @@ const Pyq = () => {
         </div>
     </div>
     <div class="dropdown">
-        <button class="dropdown-button">Foundation<img src={downarrow} alt="dropdown" /></button>
+        <button class="dropdown-button">Foundation<MdOutlineKeyboardArrowDown /></button>
     <div class="dropdown-content">
       <a href="#link1">Link 1</a>
       <a href="#link2">Link 2</a>
@@ -35,12 +38,12 @@ const Pyq = () => {
     
     <div className="main-part">
       <div className="left-part">
-        <div className='info'>CT <img src="" alt="arrow" /></div>
-        <div className='info'>CT <img src="" alt="arrow" /></div>
-        <div className='info'>CT <img src="" alt="arrow" /></div>
-        <div className='info'>CT <img src="" alt="arrow" /></div>
-        <div className='info'>CT <img src="" alt="arrow" /></div>
-        <div className='info'>CT <img src="" alt="arrow" /></div>
+        <div className='info'>CT <RiArrowDropDownLine /></div>
+        <div className='info'>CT <RiArrowDropDownLine /></div>
+        <div className='info'>CT <RiArrowDropDownLine /></div>
+        <div className='info'>CT <RiArrowDropDownLine /></div>
+        <div className='info'>CT <RiArrowDropDownLine /></div>
+        <div className='info'>CT <RiArrowDropDownLine /></div>
       </div>
       <div className="file-table">
         <div className="file-table-header">
@@ -49,56 +52,56 @@ const Pyq = () => {
         </div>
         <div className="file-row">
             <div className="file-title">
-                <img src="" alt="Download Icon" />
+                <LuCloudDownload />
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
                 <a href="https://drive.google.com/file/d/1xemG..." target="_blank">
-                    <img src="" alt="Link Icon" />
+                    <IoLinkOutline />
                 </a>
             </div>
         </div>
         <div className="file-row">
             <div className="file-title">
-                <img src="" alt="Download Icon" />
-                <p>Sep22 AN</p>
+                <LuCloudDownload />
+                <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href="https://drive.google.com/file/d/1ncrlK..." target="_blank">
-                    <img src="" alt="Link Icon" />
+                <a href="https://drive.google.com/file/d/1xemG..." target="_blank">
+                    <IoLinkOutline />
                 </a>
             </div>
         </div>
         <div className="file-row">
             <div className="file-title">
-                <img src="" alt="Download Icon" />
-                <p>Sep22 AN</p>
+                <LuCloudDownload />
+                <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href="https://drive.google.com/file/d/1ncrlK..." target="_blank">
-                    <img src="" alt="Link Icon" />
+                <a href="https://drive.google.com/file/d/1xemG..." target="_blank">
+                    <IoLinkOutline />
                 </a>
             </div>
         </div>
         <div className="file-row">
             <div className="file-title">
-                <img src="" alt="Download Icon" />
-                <p>Sep22 AN</p>
+                <LuCloudDownload />
+                <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href="https://drive.google.com/file/d/1ncrlK..." target="_blank">
-                    <img src="" alt="Link Icon" />
+                <a href="https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link" target="_blank">
+                    <IoLinkOutline />
                 </a>
             </div>
         </div>
         <div className="file-row">
             <div className="file-title">
-                <img src="" alt="Download Icon" />
-                <p>Sep22 AN</p>
+                <LuCloudDownload />
+                <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href="https://drive.google.com/file/d/1ncrlK..." target="_blank">
-                    <img src="" alt="Link Icon" />
+                <a href="https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link" target="_blank">
+                    <IoLinkOutline />
                 </a>
             </div>
         </div>
