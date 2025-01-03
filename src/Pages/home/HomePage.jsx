@@ -7,6 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { BsPencilSquare } from "react-icons/bs";
 import { FaRegFileAlt } from "react-icons/fa";
 import { HiOutlineServer } from "react-icons/hi";
+import { FaRegShareFromSquare } from "react-icons/fa6";
 
 const HomePage = () => {
   return (
@@ -48,8 +49,8 @@ const HomePage = () => {
         <div className="extra">
             <h3>Important <FaArrowRight /></h3>
             <div className='imp'>
-                <h5>Jaypee<img src="" alt="jp" /></h5>
-                <h5>Webkiosk<img src="" alt="jp" /></h5>
+                <h5>Jaypee<FaRegShareFromSquare /></h5>
+                <h5>Webkiosk<FaRegShareFromSquare /></h5>
             </div>
            
 
