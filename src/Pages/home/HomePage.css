@@ -148,6 +148,7 @@ h4 button:hover {
 .click p {
     font-size: 14px; 
     color: #ffffff; 
+    margin-top: 8px;
 }
 
 .click:hover {
@@ -198,3 +199,29 @@ h4 button:hover {
     transform: translateY(-5px); 
     
 }
+
+
+.click svg,
+.extra h3 svg {
+  font-size: 24px;
+  color: #4CAF50;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+
+.HeroSection .click svg {
+  font-size: 32px;
+  color: #007BFF;
+}
+
+
+.click svg:hover, 
+.extra h3 svg:hover {
+  color: #FF5722;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+
+
