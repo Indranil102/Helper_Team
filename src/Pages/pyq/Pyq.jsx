@@ -8,8 +8,20 @@ import { LuCloudDownload } from "react-icons/lu";
 import { IoLinkOutline } from "react-icons/io5";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
+const fileUrl1 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+const fileUrl2 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+const fileUrl3 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+const fileUrl4 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+const fileUrl5 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+
+const getShortenedUrl = (url) => {
+    return url.length > 15 ? `${url.substring(0, 15)}...` : url;
+};
+
 const Pyq = () => {
   return (
+
+
     <div>
     
       <div className="navbar">
@@ -50,14 +62,15 @@ const Pyq = () => {
           <h3>Title</h3>
           <h3>Link</h3>
         </div>
+       
         <div className="file-row">
             <div className="file-title">
                 <LuCloudDownload />
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href="https://drive.google.com/file/d/1xemG..." target="_blank">
-                    <IoLinkOutline />
+                <a href={fileUrl1} target="_blank">
+                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl1)}</p>
                 </a>
             </div>
         </div>
@@ -67,46 +80,50 @@ const Pyq = () => {
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href="https://drive.google.com/file/d/1xemG..." target="_blank">
-                    <IoLinkOutline />
+                <a href={fileUrl2} target="_blank">
+                    
+                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl2)}</p>
                 </a>
             </div>
-        </div>
-        <div className="file-row">
+         </div>
+         <div className="file-row">
             <div className="file-title">
                 <LuCloudDownload />
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href="https://drive.google.com/file/d/1xemG..." target="_blank">
-                    <IoLinkOutline />
+                <a href={fileUrl3} target="_blank">
+                    
+                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl3)}</p>
                 </a>
             </div>
-        </div>
-        <div className="file-row">
+         </div>
+         <div className="file-row">
             <div className="file-title">
                 <LuCloudDownload />
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href="https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link" target="_blank">
-                    <IoLinkOutline />
+                <a href={fileUrl4} target="_blank">
+                    
+                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl4)}</p>
                 </a>
             </div>
-        </div>
-        <div className="file-row">
+         </div>
+         <div className="file-row">
             <div className="file-title">
                 <LuCloudDownload />
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href="https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link" target="_blank">
-                    <IoLinkOutline />
+                <a href={fileUrl5} target="_blank">
+                    
+                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl5)}</p>
                 </a>
             </div>
-        </div>
+         </div>
         
-    </div>
+        </div>
     </div>
       
     </div>
