@@ -35,7 +35,7 @@ const HomePage = () => {
                         <p>PYQ</p>
                     </div>
                     <div className="click">
-                        <HiOutlineServer />
+                        <HiOutlineServer size={9000} />
                         <p>JUET Server</p>
                     </div>
                     
