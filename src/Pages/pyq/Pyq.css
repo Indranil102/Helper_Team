@@ -165,7 +165,7 @@ div {
   display: flex;
   width: 90%;
   height: 60px;
-  gap:620px;
+  gap:600px;
   margin-left: 50px;
   align-items: center;
   padding: 10px 5px;
@@ -190,6 +190,7 @@ div {
 
 .file-url a {
   text-decoration: none;
+  color: #5b378e;
 }
 
 .file-url img {
