@@ -4,6 +4,7 @@ import HomePage from './Pages/home/HomePage';
 import Navbar from './Component/Navbar/Navbar';
 import Pyq from './Pages/pyq/Pyq';
 import Lectures from './Pages/lectures/Lectures';
+import SignUp from './Component/signup/SignUp';
 
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
       <Route path='/' element={<HomePage />} />
       <Route path='/pyq' element={<Pyq/>} />
       <Route path='/Lectures' element={<Lectures/>} />
+
+      <Route path='/signup' element={<SignUp/>} />
+
+
      
      
 

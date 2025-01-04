@@ -54,9 +54,12 @@ const Navbar = () => {
             </h4>
         </li>
         </Link>
+
+        <Link>
         <li>
             <button className='signin'>Sign in</button>
         </li>
+        </Link>
       </ul>
     </div>
     </div>
