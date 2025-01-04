@@ -1,29 +1,40 @@
 
-  /* Form Container */
+.main-div{
+    margin-top: 50px;
+}
+  
   .form-container {
-    max-width: 24rem; /* 384px */
+    max-width: 28rem; /* 384px */
     margin: 0 auto;
     padding: 1.5rem;
-    background-color: #fff;
+    border: 0.5px solid rgb(62, 62, 62);
+    background-color: #27272A;
     border-radius: 0.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 6px rgba(106, 106, 106, 0.1);
+  }
+  .cross{
+    margin-left: 390px ;
   }
   
   /* Form Group */
   .form-group {
     margin-bottom: 1.25rem; /* 20px */
   }
+  .form-group ::placeholder{
+    color: #cdcdcd;
+  }
   
   .form-label {
     display: block;
-    margin-bottom: 0.5rem;
+    
+    margin-bottom: 1.2rem;
     font-size: 0.875rem; /* 14px */
     font-weight: 500;
-    color: #111827;
+    color: #fff;
   }
   
   .form-input {
-    width: 100%;
+    width: 90%;
     padding: 0.625rem; /* 10px */
     font-size: 0.875rem;
     border: 1px solid #d1d5db;
@@ -61,13 +72,13 @@
   .checkbox-label {
     margin-left: 0.5rem;
     font-size: 0.875rem;
-    color: #6b7280;
+    color: #fff;
   }
   
   /* Button */
   .form-button {
     display: block;
-    width: 100%;
+    width: 90%;
     padding: 0.625rem 1.25rem;
     font-size: 0.875rem;
     font-weight: 500;

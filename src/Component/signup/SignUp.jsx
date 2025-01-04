@@ -1,12 +1,20 @@
 import React from 'react'
 import "./Signup.css"
+import { RxCross1 } from "react-icons/rx";
+
 const SignUp = () => {
   return (
-    <div>
+    <div className='main-div'>
+      
+
        <form class="form-container">
+        <div className='cross'>
+        <RxCross1 />
+        </div>
+       
     <div class="form-group">
       <label for="email" class="form-label">Your email</label>
-      <input type="email" id="email" class="form-input" placeholder="name@flowbite.com" required />
+      <input type="email" id="email" class="form-input" placeholder="indranil@gmail.com" required />
     </div>
     <div class="form-group">
       <label for="password" class="form-label">Your password</label>

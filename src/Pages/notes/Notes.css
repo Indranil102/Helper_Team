@@ -1,0 +1,124 @@
+
+.second-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #27272A;
+    flex-wrap: wrap; 
+  }
+  
+  
+  .second-two {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white; 
+    margin-bottom: 10px; 
+  }
+  
+
+  .dropdown {
+    position: relative;
+  }
+  
+  
+  .dropdown-button {
+    background-color: #c747dd;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .dropdown-button:hover {
+    background-color: #577ce2; 
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px; 
+    overflow: hidden; 
+  }
+  
+ 
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.9rem;
+    background-color: #27272A; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #d66df4; 
+    color: white;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .second-part {
+      flex-direction: column; 
+      align-items: center;
+      justify-content: space-around;
+    }
+  
+    .second-two {
+      order: 2; 
+      margin-bottom: 15px; 
+      text-align: left; 
+      width: 50%;
+    }
+  
+    .dropdown {
+      order: 1; 
+      margin-bottom: 15px;
+      width: 100%; 
+    }
+  
+    .dropdown-button {
+      width: 100%; 
+      text-align: center; 
+    }
+  
+    .dropdown-content {
+      position: static; 
+      width: 100%; 
+      box-shadow: none; 
+    }
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .second-two {
+      font-size: 1rem; 
+      text-align: center; 
+    }
+  
+    .dropdown-button {
+      font-size: 0.9rem; 
+      padding: 8px 12px;
+    }
+  
+    .dropdown-content a {
+      font-size: 0.8rem; 
+      padding: 10px 12px;
+    }
+  }
+  

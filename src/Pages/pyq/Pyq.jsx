@@ -24,9 +24,7 @@ const Pyq = () => {
 
     <div>
     
-      <div className="navbar">
-      
-      </div>
+    
 
       <div className="second-part">
         <div className='second-two'><CiStickyNote /> PREVIOUS YEAR QUESTION </div>
