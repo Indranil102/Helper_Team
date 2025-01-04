@@ -15,7 +15,7 @@ const fileUrl4 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA4
 const fileUrl5 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
 
 const getShortenedUrl = (url) => {
-    return url.length > 15 ? `${url.substring(0, 15)}...` : url;
+    return url.length > 30 ? `${url.substring(0, 30)}...` : url;
 };
 
 const Pyq = () => {
