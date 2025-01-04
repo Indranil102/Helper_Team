@@ -1,69 +1,31 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './Navbar.css'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+
 const Navbar = () => {
-  return (
-    <div >
-      <div className='Navbar'>
-      <ul className="helper">
-        
-        <li>
-            <h2 >
-                HelperTeam
-            </h2>
-        </li>
-        <Link to='/'>
-        <li>
-            <h4 >
-                <button> Home </button>
-            </h4>
-        </li>
-        </Link>
-        <Link to='/Pyq'>
-        <li>
-            <h4 >
-                <button>  PYQ </button>
-            </h4>
-        </li>
-        </Link>
-        <Link to='/Lectures'>
-        <li>
-            <h4>
-                <button>Lectures</button>
-            </h4>
-        </li>
-        </Link>
-        <Link to='/Notes'>
-        <li>
-            <h4 >
-                <button> Notes</button>
-            </h4>
-        </li>
-        </Link>
-        <Link to='/Juetserver'>
-        <li>
-            <h4>
-                <button>JUET Server</button>
-            </h4>
-        </li>
-        </Link>
-        <Link to='/About'>
-        <li>
-            <h4>
-                <button>About</button>
-            </h4>
-        </li>
-        </Link>
+    const [menuActive, setMenuActive] = useState(false);
 
-        <Link to={'/signup'}>
-        <li>
-            <button className='signin'>Sign in</button>
-        </li>
-        </Link>
-      </ul>
-    </div>
-    </div>
-  )
-}
+    const toggleMenu = () => {
+        setMenuActive(!menuActive);
+    };
 
-export default Navbar
+    return (
+        <div className="Navbar">
+            <div className="brand">HelperTeam</div>
+            <button className="menu-toggle" onClick={toggleMenu}>
+                ☰
+            </button>
+            <ul className={`helper ${menuActive ? 'active' : ''}`}>
+                <Link to="/"><li><button>Home</button></li></Link>
+                <Link to="/Pyq"><li><button>PYQ</button></li></Link>
+                <Link to="/Lectures"><li><button>Lectures</button></li></Link>
+                <Link to="/Notes"><li><button>Notes</button></li></Link>
+                <Link to="/Juetserver"><li><button>JUET Server</button></li></Link>
+                <Link to="/About"><li><button>About</button></li></Link>
+                <Link to="/signup"><li><button className="signin">Sign in</button></li></Link>
+            </ul>
+        </div>
+    );
+};
+
+export default Navbar;

@@ -1,101 +1,127 @@
 body {
-    max-width: 100%;
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #27272A;
 }
 
 .Navbar {
-    background-color: rgb(39, 39, 42); 
-    width: 100%; 
-    height: 100px;
-    margin: 0 auto;
+    background-color: #27272A;
+    width: 100%;
+    padding: 40px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
-    transition: width 0.3s ease-in-out; 
-    border-style: solid;
-    border-color: white;
-    border-width: 0 0 2px 0;
+    border-bottom: 2px solid white;
     box-sizing: border-box;
+    position: relative;
+
+}
+
+.Navbar .brand {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar .menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .helper {
     display: flex;
     align-items: center;
-    list-style-type: none;
-    max-width: 100%;
-    flex-wrap: wrap;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.helper li {
+    margin: 0 10px;
 }
 
 .helper h2 {
-    margin-left: 20px;
-    margin-right: 450px;
-    font-weight: 800;
-    font-size: 26px;
-    gap: 15px;
     color: #ffffff;
+    margin: 0;
     cursor: pointer;
 }
 
-h4 button, .helper .signin {
-    margin-left: 20px;
-    margin-top: 5px;
-    color: rgb(208, 207, 207); 
-    border: 2px solid rgb(39,39,42); 
-    background: none; 
-    padding: 8px 16px; 
-    border-radius: 25px; 
-    cursor: pointer; 
-    font-family: Arial, sans-serif; 
-    font-size: 18px; 
+.helper button {
+    color: rgb(208, 207, 207);
+    border: 2px solid #27272A;
+    background: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.helper .signin{
+    color: rgb(208, 207, 207);
+    border: 2px solid #ffffff;
+    background: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
     transition: all 0.3s ease;
 }
 
-h4 button:hover, .helper .signin:hover {
-    color: white; 
-    border-color: purple; 
-    transform: scale(1.1) translateY(-2px); 
+.helper button:hover, .helper .signin:hover {
+    color: white;
+    border-color: purple;
+    transform: scale(1.1) translateY(-2px);
 }
 
 @media (max-width: 768px) {
     .Navbar {
-        height: auto;
         flex-wrap: wrap;
-        justify-content: center;
-        padding: 10px;
+        justify-content: space-between;
     }
 
-    .helper h2 {
-        font-size: 22px;
-        margin-right: 0;
+    .helper {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #27272A;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 10px 0;
+        border-top: 1px solid white;
     }
 
-    h4 button, .helper .signin {
-        font-size: 16px;
-        padding: 6px 12px;
+    .helper.active {
+        display: flex;
+    }
+
+    .helper li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .Navbar .menu-toggle {
+        display: block;
     }
 }
 
 @media (max-width: 480px) {
-    .helper h2 {
+    .brand {
         font-size: 18px;
-        margin-left: 10px;
     }
 
-    h4 button, .helper .signin {
+    .helper button, .helper .signin {
         font-size: 14px;
         padding: 5px 10px;
     }
-
-    .helper {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 }
-
-
-  
