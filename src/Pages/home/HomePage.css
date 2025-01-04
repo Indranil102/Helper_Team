@@ -175,7 +175,8 @@ h4 button:hover {
     
     
 }
-.extra .imp h5{
+.extra .imp h5 a{
+    text-decoration: none;
     padding: 8px 10px;
     border: 1px solid white;
     border-radius:5px ;
@@ -186,7 +187,7 @@ h4 button:hover {
     cursor: pointer; 
     margin: 20px 0 0 0;
 }
-.extra .imp h5 svg{
+.extra .imp h5 a svg{
     margin-left: 10px;
 }
 .extra .imp h5:hover{
