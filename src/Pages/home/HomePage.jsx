@@ -1,6 +1,7 @@
 import React from 'react'
 import './HomePage.css'  
 import { RxLaptop } from "react-icons/rx";
+import {Link} from 'react-router-dom';
 import illustrator from "../../Images/illustratoer.png";
 import Navbar from '../../Component/Navbar/Navbar';
 import { FaArrowRight } from "react-icons/fa";
@@ -22,22 +23,30 @@ const HomePage = () => {
                  Find notes, past question papers, and essential tools to excel academically.
                  Join thousands of students who trust us as their go-to resource hub. Take the next step towards success today!</p>
                 <div className="container">
+                    <Link to='/Lectures'>
                     <div className="click">
                         <RxLaptop />
                         <p>Lectures</p>
                     </div>
+                    </Link>
+                    <Link to='/Notes'>
                     <div className="click">
                         <BsPencilSquare />
                         <p>Notes</p>
                     </div>
+                    </Link>
+                    <Link to='/Pyq'>
                     <div className="click">
                         <FaRegFileAlt />
                         <p>PYQ</p>
                     </div>
+                    </Link>
+                    <Link to='/Juetserver'>
                     <div className="click">
                         <HiOutlineServer size={35} />
                         <p>JUET Server</p>
                     </div>
+                    </Link>
                     
                 </div>
             </div>
@@ -49,8 +58,8 @@ const HomePage = () => {
         <div className="extra">
             <h3>Important <FaArrowRight /></h3>
             <div className='imp'>
-                <h5>Jaypee<FaRegShareFromSquare /></h5>
-                <h5>Webkiosk<FaRegShareFromSquare /></h5>
+                <h5><a href="https://www.juet.ac.in/">Jaypee<FaRegShareFromSquare /></a></h5>
+                <h5><a href="https://webkiosk.juet.ac.in/">Webkiosk<FaRegShareFromSquare /></a></h5>
             </div>
            
 
