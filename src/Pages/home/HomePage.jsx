@@ -23,12 +23,12 @@ const HomePage = () => {
                  Find notes, past question papers, and essential tools to excel academically.
                  Join thousands of students who trust us as their go-to resource hub. Take the next step towards success today!</p>
                 <div className="container">
-                    <Link to='/Lectures'>
+                    {/*<Link to='/Lectures'>
                     <div className="click">
                         <RxLaptop />
                         <p>Lectures</p>
                     </div>
-                    </Link>
+                    </Link>*/}
                     <Link to='/Notes'>
                     <div className="click">
                         <BsPencilSquare />

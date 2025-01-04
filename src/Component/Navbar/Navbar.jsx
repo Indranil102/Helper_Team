@@ -18,7 +18,7 @@ const Navbar = () => {
             <ul className={`helper ${menuActive ? 'active' : ''}`}>
                 <Link to="/"><li><button>Home</button></li></Link>
                 <Link to="/Pyq"><li><button>PYQ</button></li></Link>
-                <Link to="/Lectures"><li><button>Lectures</button></li></Link>
+                {/*<Link to="/Lectures"><li><button>Lectures</button></li></Link>*/}
                 <Link to="/Notes"><li><button>Notes</button></li></Link>
                 <Link to="/Juetserver"><li><button>JUET Server</button></li></Link>
                 <Link to="/About"><li><button>About</button></li></Link>
