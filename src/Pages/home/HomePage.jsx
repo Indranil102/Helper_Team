@@ -3,7 +3,7 @@ import './HomePage.css'
 import { RxLaptop } from "react-icons/rx";
 import {Link} from 'react-router-dom';
 import illustrator from "../../Images/illustratoer.png";
-import Navbar from '../../Component/Navbar/Navbar';
+
 import { FaArrowRight } from "react-icons/fa";
 import { BsPencilSquare } from "react-icons/bs";
 import { FaRegFileAlt } from "react-icons/fa";
@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     
     <div>
-        <Navbar/>
+        
         <div className='HeroSection'>
         <div className="content">
             <div className="left-Content">

@@ -1,4 +1,4 @@
-    /* Style the dropdown container */
+
     .navbar{
         margin-top: 0px;
         
@@ -42,7 +42,7 @@
   }
   
   .dropdown-button {
-    background-color: rgb(39, 39, 42); /* Green button */
+    background-color: rgb(39, 39, 42); 
     color: white;
     padding: 10px 16px;
     border: 1px solid white;
@@ -83,7 +83,7 @@
     flex-direction: column;
     
   }
- /* General styling for the parent container */
+ 
 div {
   max-width: 100%;
   padding: 0;
@@ -95,50 +95,50 @@ div {
   display: flex;
   flex-direction: row;
 }
-/* Styling for the left-part container */
+
 .left-part {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px; /* Spacing between each "info" div */
+  gap: 10px; 
   height: 450px;
   padding: 20px;
-  background-color: #303030; /* Light background color for visibility */
-  border-right: 1px solid white; /* Optional border for the container */
+  background-color: #303030; 
+  border-right: 1px solid white; 
   
   width: 500px;
-  margin-left: 100px; /* Added margin-left */
-  padding-top: 50px; /* Added margin-top */
+  margin-left: 100px; 
+  padding-top: 50px; 
 }
 
-/* Styling for each info div containing "CT" */
+
 .info {
   width: 900px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px; /* Space between text and image */
+  gap: 10px; 
   padding: 15px 35px;
-  background-color: #555555; /* Background color for the individual divs */
-  border: 2px solid #333; /* Border for each "CT" div */
+  background-color: #555555; 
+  border: 2px solid #333; 
   border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
-  color: #333; /* Text color */
+  color: #333; 
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect for the "info" divs */
+
 .info:hover {
-  transform: scale(1.05); /* Slight zoom effect */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
-  border-color: #6200ea; /* Highlight border on hover */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-color: #6200ea; 
 }
 
-/* Styling for the image inside the "info" div */
+
 .info img {
-  width: 20px; /* Set the size of the arrow image */
+  width: 20px; 
   height: 20px;
 }
 

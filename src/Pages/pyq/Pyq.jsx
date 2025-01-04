@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Pyq.css'
-import Navbar from '../../Component/Navbar/Navbar'
+
 import { CiStickyNote } from "react-icons/ci";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { LuCloudDownload } from "react-icons/lu";
@@ -25,7 +25,7 @@ const Pyq = () => {
     <div>
     
       <div className="navbar">
-          <Navbar/>
+      
       </div>
 
       <div className="second-part">
