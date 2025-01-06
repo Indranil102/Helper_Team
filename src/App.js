@@ -6,6 +6,7 @@ import Pyq from './Pages/pyq/Pyq';
 import Lectures from './Pages/lectures/Lectures';
 import SignUp from './Component/signup/SignUp';
 import Notes from './Pages/notes/Notes';
+import Juetserver from './Pages/Juetserver/Juetserver';
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
 
       <Route path='/notes' element={<Notes/>} />
 
-
+      <Route path='/Juetserver' element={<Juetserver/>}/>
      
      
 
