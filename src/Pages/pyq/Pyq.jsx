@@ -64,7 +64,7 @@ const Pyq = () => {
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href={fileUrl1} target="_blank">
+                <a href={fileUrl1} >
                     <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl1)}</p>
                 </a>
             </div>
@@ -75,7 +75,7 @@ const Pyq = () => {
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href={fileUrl2} target="_blank">
+                <a href={fileUrl2} >
                     
                     <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl2)}</p>
                 </a>
@@ -87,7 +87,7 @@ const Pyq = () => {
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href={fileUrl3} target="_blank">
+                <a href={fileUrl3} >
                     
                     <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl3)}</p>
                 </a>
@@ -99,7 +99,7 @@ const Pyq = () => {
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href={fileUrl4} target="_blank">
+                <a href={fileUrl4} >
                     
                     <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl4)}</p>
                 </a>
@@ -111,7 +111,7 @@ const Pyq = () => {
                 <p>May22 AN</p>
             </div>
             <div className="file-url">
-                <a href={fileUrl5} target="_blank">
+                <a href={fileUrl5} >
                     
                     <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl5)}</p>
                 </a>

@@ -58,8 +58,8 @@ const HomePage = () => {
         <div className="extra">
             <h3>Important <FaArrowRight /></h3>
             <div className='imp'>
-                <h5><a href="https://www.juet.ac.in/">Jaypee<FaRegShareFromSquare /></a></h5>
-                <h5><a href="https://webkiosk.juet.ac.in/">Webkiosk<FaRegShareFromSquare /></a></h5>
+                <h5><a href="https://www.juet.ac.in/">JAYPEE<FaRegShareFromSquare /></a></h5>
+                <h5><a href="https://webkiosk.juet.ac.in/">WEBKIOSK<FaRegShareFromSquare /></a></h5>
             </div>
            
 
