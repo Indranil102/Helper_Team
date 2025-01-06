@@ -26,11 +26,12 @@ const getShortenedUrl = (url) => {
               <div className='second-two'><CiStickyNote /> PREVIOUS YEAR QUESTION </div>
 
               <div class="dropdown">
-              <button class="dropdown-button">Foundation<MdOutlineKeyboardArrowDown /></button>
+              <button class="dropdown-button">CHOOSE YEAR<MdOutlineKeyboardArrowDown /></button>
           <div class="dropdown-content">
-            <a href="#link1">Link 1</a>
-            <a href="#link2">Link 2</a>
-            <a href="#link3">Link 3</a>
+            <a href="#link1">I-YEAR</a>
+            <a href="#link2">II-YEAR</a>
+            <a href="#link3">III-YEAR</a>
+            <a href="#link4">IV-YEAR</a>
           </div>
           </div>
              
@@ -56,7 +57,7 @@ const getShortenedUrl = (url) => {
                           <p>May22 AN</p>
                       </div>
                       <div className="file-url">
-                          <a href={fileUrl1} target="_blank">
+                          <a href={fileUrl1} >
                               <p class="paper_link"><IoLinkOutline />  {getShortenedUrl(fileUrl1)}</p>
                           </a>
                       </div>
@@ -67,7 +68,7 @@ const getShortenedUrl = (url) => {
                           <p>May22 AN</p>
                       </div>
                       <div className="file-url">
-                          <a href={fileUrl2} target="_blank">
+                          <a href={fileUrl2} >
                               
                               <p class="paper_link"><IoLinkOutline />  {getShortenedUrl(fileUrl2)}</p>
                           </a>
@@ -79,7 +80,7 @@ const getShortenedUrl = (url) => {
                           <p>May22 AN</p>
                       </div>
                       <div className="file-url">
-                          <a href={fileUrl3} target="_blank">
+                          <a href={fileUrl3} >
                               
                               <p class="paper_link"><IoLinkOutline />  {getShortenedUrl(fileUrl3)}</p>
                           </a>
@@ -91,7 +92,7 @@ const getShortenedUrl = (url) => {
                           <p>May22 AN</p>
                       </div>
                       <div className="file-url">
-                          <a href={fileUrl4} target="_blank">
+                          <a href={fileUrl4} >
                               
                               <p class="paper_link"><IoLinkOutline />  {getShortenedUrl(fileUrl4)}</p>
                           </a>
@@ -103,7 +104,7 @@ const getShortenedUrl = (url) => {
                           <p>May22 AN</p>
                       </div>
                       <div className="file-url">
-                          <a href={fileUrl5} target="_blank">
+                          <a href={fileUrl5} >
                               
                               <p class="paper_link"><IoLinkOutline />  {getShortenedUrl(fileUrl5)}</p>
                           </a>
