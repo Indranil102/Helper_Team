@@ -3,6 +3,8 @@ import 'Juetserver.css'
 const Juetserver = () => {
   return (
     <div>
+     <SelectDepartment/>
+
      
     </div>
   )
