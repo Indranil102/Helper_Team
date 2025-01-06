@@ -32,6 +32,7 @@ function App() {
       <Route path='/signup' element={<SignUp/>} />
 
       <Route path='/notes' element={<Notes/>} />
+      <Route path='/juetserver' element={<Juetserver/>} />
 
       <Route path='/Juetserver' element={<Juetserver/>}/>
      

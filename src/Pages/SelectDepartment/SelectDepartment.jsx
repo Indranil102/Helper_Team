@@ -1,5 +1,5 @@
 import React from 'react'
-import './SelectDepartment.css'
+import './SelectDepartment'
 const SelectDepartment = () => {
   return (
     <div>

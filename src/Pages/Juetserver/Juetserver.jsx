@@ -1,10 +1,9 @@
 import React from 'react'
-import './Juetserver.css'
-import {SelectDepartment} from '../SelectDepartment/SelectDepartment'
+import 'Juetserver.css'
 const Juetserver = () => {
   return (
     <div>
-     <SelectDepartment />
+     
     </div>
   )
 }
