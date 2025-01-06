@@ -6,7 +6,7 @@ const Juetserver = () => {
     <div>
      <SelectDepartment/>
 
-     kjgnerjgnerjgvnerjgnerjfbn jgvnbgber
+     
     </div>
   )
 }
