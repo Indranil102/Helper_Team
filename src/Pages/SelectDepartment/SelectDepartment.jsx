@@ -7,16 +7,19 @@ const SelectDepartment = () => {
           <h1>Select a Year</h1>
           <div className="container">
             <button className="box">
-              1 Year
+              CSE
             </button>
             <button className="box"  >
-              2 Year
+              ECE
             </button>
             <button className="box" >
-              3 Year
+             CE
             </button>
             <button className="box"  >
-              4 Year
+              CHE
+            </button>
+            <button className="box"  >
+               ME
             </button>
           </div>
         </div>
