@@ -1,8 +1,8 @@
 import React from 'react'
-import './SelectDepartment'
+import './SelectDepartment.css'
 const SelectDepartment = () => {
   return (
-    <div>
+    <div className='mom'>
       <div className="select-year-fullscreen">
           <h1>Select a Year</h1>
           <div className="container">
