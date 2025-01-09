@@ -20,7 +20,7 @@
 
 h1 {
   background-color: #ffffff; /* Dark blue background */
-  color: #ffffff; /* White text */
+  color: #000000; /* White text */
   padding: 15px 30px; /* Even padding around the text */
   font-size: 2rem; /* Adjust font size for better readability */
   text-align: center; /* Center the text inside the background */
