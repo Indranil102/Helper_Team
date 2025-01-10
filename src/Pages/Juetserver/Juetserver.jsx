@@ -6,10 +6,14 @@ const Juetserver = () => {
     <>
     
      <SelectDepartment/>
+
+     </>
+
     <div className="juetserver-container">
     <h1>JUET Server</h1>
     </div>
   </>
+
   )
 }
 
