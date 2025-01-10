@@ -113,16 +113,18 @@ h4 button:hover,
     min-width: 100px;
     height: 12vh;
     border-radius: 8px; 
-    border: 1px solid #27272A;
+    border: 1px solid #bdbdbd;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
 
+
 }
 
-.click p {
+.click p{
     font-size: 14px; 
     color: #ffffff; 
     text-align: center;
+    text-decoration: none;
 }
 
 .click:hover {
