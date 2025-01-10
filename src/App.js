@@ -6,7 +6,8 @@ import Pyq from './Pages/pyq/Pyq';
 import Lectures from './Pages/lectures/Lectures';
 import SignUp from './Component/signup/SignUp';
 import Notes from './Pages/notes/Notes';
-import Juetserver from './Pages/Juetserver/Juetserver';
+
+import SelectDepartment from './Pages/SelectDepartment/SelectDepartment';
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       <Route path='/signup' element={<SignUp/>} />
 
       <Route path='/notes' element={<Notes/>} />
-      <Route path='/juetserver' element={<Juetserver/>} />
+      <Route path='/juetserver' element={<SelectDepartment
+      />} />
 
       
      

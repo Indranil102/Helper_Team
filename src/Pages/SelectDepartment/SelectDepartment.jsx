@@ -5,7 +5,7 @@ const SelectDepartment = () => {
     <div className='mom'>
       <div className="select-year-fullscreen">
           
-          <div className="container">
+          <div className="contain">
           <a href="https://drive.google.com/drive/folders/1Ve3D7nfETE1Z-Ex5iLa6Uywi6QDuLhgc?usp=drive_link"><button className="box"  >CSE</button></a> 
           <a href="https://drive.google.com/drive/folders/1HeXlS04ETkFbdHKPsdzN8Y_eLKyVfk-D?usp=drive_link"><button className="box"  >ECE</button></a> 
           <a href="https://drive.google.com/drive/folders/1pVsuiayY0BN6SGg28zz1HNVqlEwY-RV_?usp=drive_link"><button className="box"  >CE</button></a> 
