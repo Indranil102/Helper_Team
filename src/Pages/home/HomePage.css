@@ -42,7 +42,7 @@ svg {
 h4 button, 
 .helper .signin {
     color: rgb(208, 207, 207); 
-    border: 2px solid rgb(39, 39, 42); 
+    border: 2px solid #27272A; 
     background: none; 
     padding: 8px 16px; 
     border-radius: 25px; 
@@ -63,7 +63,7 @@ h4 button:hover,
     display: flex;
     flex-wrap: wrap; /* Makes the layout responsive */
     gap: 20px;
-    background-color: rgb(39, 39, 42);
+    background-color: #27272A;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -113,7 +113,7 @@ h4 button:hover,
     min-width: 100px;
     height: 12vh;
     border-radius: 8px; 
-    border: 1px solid rgb(87, 87, 87);
+    border: 1px solid #27272A;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
 
