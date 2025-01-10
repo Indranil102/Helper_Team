@@ -74,12 +74,14 @@ svg {
 
 }
 
-.click p{
+.click p {
     font-size: 14px; 
     color: #ffffff; 
     text-align: center;
-    
+    border-style: none;
+    text-decoration: none; 
 }
+
 
 .click:hover {
     transform: translateY(-5px); 

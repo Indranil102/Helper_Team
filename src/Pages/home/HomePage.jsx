@@ -23,25 +23,25 @@ const HomePage = () => {
                  Find notes, past question papers, and essential tools to excel academically.
                  Join thousands of students who trust us as their go-to resource hub. Take the next step towards success today!</p>
                 <div className="container">
-                    <Link to='/Lectures'>
+                    <Link to='/Lectures' style={{ textDecoration: 'none' }}>
                     <div className="click">
                         <RxLaptop />
                         <p>Lectures</p>
                     </div>
                     </Link>
-                    <Link to='/Notes'>
+                    <Link to='/Notes' style={{ textDecoration: 'none' }}>
                     <div className="click">
                         <BsPencilSquare />
                         <p>Notes</p>
                     </div>
                     </Link>
-                    <Link to='/Pyq'>
+                    <Link to='/Pyq' style={{ textDecoration: 'none' }}>
                     <div className="click">
                         <FaRegFileAlt />
                         <p>PYQ</p>
                     </div>
                     </Link>
-                    <Link to='/Juetserver'>
+                    <Link to='/Juetserver' style={{ textDecoration: 'none' }}>
                     <div className="click">
                         <HiOutlineServer size={35} />
                         <p>JUET Server</p>
