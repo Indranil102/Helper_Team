@@ -28,15 +28,15 @@ const SelectDepartment = () => {
           <a href="https://drive.google.com/drive/folders/1pVsuiayY0BN6SGg28zz1HNVqlEwY-RV_?usp=drive_link"><button className="box"  ><CiViewTimeline />
           TIME TABLE</button></a> 
             
-          <a href="https://drive.google.com/drive/folders/1pVsuiayY0BN6SGg28zz1HNVqlEwY-RV_?usp=drive_link"><button className="box"  ><GiChemicalDrop />
+          <a href="https://drive.google.com/drive/folders/1BRaWzweoHrZ-voC8nvtZuVVwPM9dEhlb"><button className="box"  ><GiChemicalDrop />
           CHEMISTRY</button></a> 
-          <a href="https://drive.google.com/drive/folders/1pVsuiayY0BN6SGg28zz1HNVqlEwY-RV_?usp=drive_link"><button className="box"  ><TiSocialFacebook />
+          <a href="https://drive.google.com/drive/folders/1Lfp_reM0VbHYfJvnXIz76JSxaTRgfmd5"><button className="box"  ><TiSocialFacebook />
           FMS</button></a> 
-          <a href="https://drive.google.com/drive/folders/1pVsuiayY0BN6SGg28zz1HNVqlEwY-RV_?usp=drive_link"><button className="box"  ><LuBookA />
+          <a href="https://drive.google.com/drive/folders/1HIbnYkhC3S_UDtp6OJ9MVjdphd9L9tp_"><button className="box"  ><LuBookA />
           HSS</button></a> 
-          <a href="https://drive.google.com/drive/folders/1pVsuiayY0BN6SGg28zz1HNVqlEwY-RV_?usp=drive_link"><button className="box"  ><BiMath />
+          <a href="https://drive.google.com/drive/folders/14YtaGkPBz4PwydiBZiwEjfdJMFx_qXKD"><button className="box"  ><BiMath />
           MATH</button></a> 
-          <a href="https://drive.google.com/drive/folders/1pVsuiayY0BN6SGg28zz1HNVqlEwY-RV_?usp=drive_link"><button className="box"  ><IoIosConstruct />
+          <a href="https://drive.google.com/drive/folders/1bIW93dieNlIUvbZ7MNYM_c7bper_ZxLo"><button className="box"  ><IoIosConstruct />
           MECH</button></a> 
           </div>
         </div>
