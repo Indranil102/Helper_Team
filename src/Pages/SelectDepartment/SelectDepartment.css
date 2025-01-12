@@ -11,10 +11,11 @@
 
 .select-year-fullscreen {
   display: flex;
-  flex-direction: row;
-  align-items:center;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   height: 80vh;
+  flex-wrap: wrap;
   width: 100%; /* Full viewport width */
   text-align: center; /* Center text elements inside the container */
    /* Optional background color */
@@ -27,10 +28,10 @@
 .contain {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 30px; 
-  
+  flex-wrap: wrap;
    height: 80vh;
    width: 100%;
   padding-bottom: 20px;
