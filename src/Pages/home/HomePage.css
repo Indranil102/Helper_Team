@@ -9,8 +9,55 @@ svg {
     color: #cccccc;
 }
 
+.Navbar {
+    background-color: rgb(39, 39, 42); 
+    width: 100%; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    transition: width 0.3s ease-in-out; 
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+}
 
+.helper {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap; /* Wrap for smaller screens */
+    padding: 0;
+    margin: 0;
+}
 
+.helper h2 {
+    margin: 0 15px;
+    font-weight: 800;
+    font-size: 26px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+h4 button, 
+.helper .signin {
+    color: rgb(208, 207, 207); 
+    border: 2px solid #27272A; 
+    background: none; 
+    padding: 8px 16px; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-size: 18px; 
+    transition: border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    margin: 5px;
+}
+
+h4 button:hover,
+.helper .signin:hover {
+    border-color: purple; 
+    color: white;
+    transform: scale(1.1) translateY(-2px);
+}
 
 .content {
     display: flex;
@@ -60,11 +107,11 @@ svg {
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-    justify-content: center; 
-    width: 150px;
+    justify-content: flex-end;
+    width: 180px;
     max-width: 300px; 
     min-width: 100px;
-    height: 12vh;
+    height: 14vh;
     border-radius: 8px; 
     border: 1px solid white;
     
@@ -128,7 +175,6 @@ svg {
     transform: translateY(-5px); 
 }
 
-.click svg,
 .extra h3 svg {
     font-size: 20px;
     color: #f1f1f1;
@@ -138,8 +184,9 @@ svg {
 }
 
 .HeroSection .click svg {
-    font-size: 32px;
+    font-size: 40px;
     color: #007BFF;
+    margin-top: 10px;
 }
 
 .click svg:hover, 

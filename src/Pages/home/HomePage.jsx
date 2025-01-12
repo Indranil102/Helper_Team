@@ -43,7 +43,7 @@ const HomePage = () => {
                     </Link>
                     <Link to='/Juetserver' style={{ textDecoration: 'none' }}>
                     <div className="click">
-                        <HiOutlineServer size={35} />
+                        <HiOutlineServer size={50} />
                         <p>JUET Server</p>
                     </div>
                     </Link>
