@@ -3,9 +3,7 @@ import React from 'react'
 import './Pyq.css'
 
 import { CiStickyNote } from "react-icons/ci";
-import { RiArrowDropDownLine } from "react-icons/ri";
-import { LuCloudDownload } from "react-icons/lu";
-import { IoLinkOutline } from "react-icons/io5";
+
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const fileUrl1 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
@@ -43,85 +41,10 @@ const Pyq = () => {
     </div>
         </div>
     
-    <div className="main-part">
-      <div className="left-part">
-        <div className='info'>CT <RiArrowDropDownLine /></div>
-        <div className='info'>CT <RiArrowDropDownLine /></div>
-        <div className='info'>CT <RiArrowDropDownLine /></div>
-        <div className='info'>CT <RiArrowDropDownLine /></div>
-        <div className='info'>CT <RiArrowDropDownLine /></div>
-        <div className='info'>CT <RiArrowDropDownLine /></div>
-      </div>
-      <div className="file-table">
-        <div className="file-table-header">
-          <h3>Title</h3>
-          <h3>Link</h3>
-        </div>
-       
-        <div className="file-row">
-            <div className="file-title">
-                <LuCloudDownload />
-                <p>May22 AN</p>
-            </div>
-            <div className="file-url">
-                <a href={fileUrl1} >
-                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl1)}</p>
-                </a>
-            </div>
-        </div>
-        <div className="file-row">
-            <div className="file-title">
-                <LuCloudDownload />
-                <p>May22 AN</p>
-            </div>
-            <div className="file-url">
-                <a href={fileUrl2} >
-                    
-                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl2)}</p>
-                </a>
-            </div>
-         </div>
-         <div className="file-row">
-            <div className="file-title">
-                <LuCloudDownload />
-                <p>May22 AN</p>
-            </div>
-            <div className="file-url">
-                <a href={fileUrl3} >
-                    
-                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl3)}</p>
-                </a>
-            </div>
-         </div>
-         <div className="file-row">
-            <div className="file-title">
-                <LuCloudDownload />
-                <p>May22 AN</p>
-            </div>
-            <div className="file-url">
-                <a href={fileUrl4} >
-                    
-                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl4)}</p>
-                </a>
-            </div>
-         </div>
-         <div className="file-row">
-            <div className="file-title">
-                <LuCloudDownload />
-                <p>May22 AN</p>
-            </div>
-            <div className="file-url">
-                <a href={fileUrl5} >
-                    
-                    <p class="paper_link"><IoLinkOutline />{getShortenedUrl(fileUrl5)}</p>
-                </a>
-            </div>
-         </div>
-        
-        </div>
+    
     </div>
       
-    </div>
+   
   )
 }
 
