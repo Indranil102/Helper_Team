@@ -18,6 +18,14 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const Pyq = () => {
   let selectsem =false;
+
+
+  
+  function selectSem(){
+
+    
+
+  }
   return (
 
 
