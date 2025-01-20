@@ -17,7 +17,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 //};
 
 const Pyq = () => {
-  let selectsem =false;
+  let selectSem =false;
   return (
 
 
@@ -44,12 +44,12 @@ const Pyq = () => {
          
          <div className='ppr-selector'>
          {
-      selectsem ? (
-            <div className='sem-selector' onClick={selectsem}>
+      selectSem ? (
+            <div className='sem-selector'onClick={selectsem}>
                <h1>ODD Sem</h1>
             </div>
          ) : (
-            <div className='sem-selector' onClick={selectsem}>
+            <div className='sem-selector onClick={selectsem}>
                <h1>EVEN Sem</h1>
             </div>
   )
@@ -71,7 +71,6 @@ const Pyq = () => {
     </>
   )
 }
-
         </div>
 
 
