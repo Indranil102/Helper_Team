@@ -50,9 +50,9 @@ const Pyq = () => {
         </div>
 
         <div className='select-exam-type'>
-          <div><h3>T1</h3></div>
-          <div><h3>T2</h3></div>
-          <div><h3>T3</h3></div>
+          <div className='test'><h3>T1</h3></div>
+          <div className='test'><h3>T2</h3></div>
+          <div className='test'><h3>T3</h3></div>
           
         </div>
 
