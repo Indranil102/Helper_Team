@@ -50,17 +50,17 @@ const Pyq = () => {
         </div>
          
          <div className='ppr-selector'>
-         {
-      selectSem ? (
-            <div className='sem-selector'onClick={selectSem}>
-               <h1>ODD Sem</h1>
+        
+             <div className='sem'>
+            <div className='sem-selector'>
+               <h1 onClick={selectSem}>ODD Sem</h1>
             </div>
-         ) : (
+      
             <div className='sem-selector' onClick={selectSem}>
                <h1>EVEN Sem</h1>
             </div>
-  )
-}
+            </div>
+
         
 
 {
