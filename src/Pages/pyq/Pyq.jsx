@@ -6,18 +6,23 @@ import { CiStickyNote } from "react-icons/ci";
 
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
-const fileUrl1 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
-const fileUrl2 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
-const fileUrl3 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
-const fileUrl4 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
-const fileUrl5 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+//const fileUrl1 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+//const fileUrl2 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+//const fileUrl3 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+//const fileUrl4 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
+//const fileUrl5 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
 
 const getShortenedUrl = (url) => {
     return url.length > 30 ? `${url.substring(0, 30)}...` : url;
 };
 
 const Pyq = () => {
-  let selectSem =false;
+
+
+  
+  function selectSem(){
+
+  }
   return (
 
 
@@ -45,11 +50,11 @@ const Pyq = () => {
          <div className='ppr-selector'>
          {
       selectSem ? (
-            <div className='sem-selector'onClick={selectsem}>
+            <div className='sem-selector'onClick={selectSem}>
                <h1>ODD Sem</h1>
             </div>
          ) : (
-            <div className='sem-selector onClick={selectsem}>
+            <div className='sem-selector' onClick={selectSem}>
                <h1>EVEN Sem</h1>
             </div>
   )
@@ -71,7 +76,6 @@ const Pyq = () => {
     </>
   )
 }
-
         </div>
 
 
