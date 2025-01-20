@@ -40,8 +40,26 @@ const Pyq = () => {
     </div>
     </div>
         </div>
-    
-    
+         
+         <div>
+        <div className='sem-container'>
+          <div> <h1>ODD Sem</h1></div>
+          <div> <h1>EVEN Sem</h1></div>
+
+
+        </div>
+
+        <div className='select-exam-type'>
+          <div className='test'><h3>T1</h3></div>
+          <div className='test'><h3>T2</h3></div>
+          <div className='test'><h3>T3</h3></div>
+          
+        </div>
+
+        </div>
+
+
+            
     </div>
       
    
