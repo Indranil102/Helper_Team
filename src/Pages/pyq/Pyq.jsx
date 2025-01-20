@@ -40,8 +40,7 @@ const Pyq = () => {
     </div>
     </div>
         </div>
-    
-    
+            
     </div>
       
    
