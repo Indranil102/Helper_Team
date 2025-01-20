@@ -20,6 +20,8 @@
 
   .dropdown {
     position: relative;
+    display: inline;
+    margin-bottom: 20px;
   }
   
   
