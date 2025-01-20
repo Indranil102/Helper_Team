@@ -1,92 +1,77 @@
-import React from 'react'
+import React, { useState } from 'react';
 
-import './Pyq.css'
+import './Pyq.css';
 
 import { CiStickyNote } from "react-icons/ci";
 
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
-//const fileUrl1 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
-//const fileUrl2 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
-//const fileUrl3 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
-//const fileUrl4 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
-//const fileUrl5 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
-
-const getShortenedUrl = (url) => {
-    return url.length > 30 ? `${url.substring(0, 30)}...` : url;
-};
-
 const Pyq = () => {
+  // Use state to manage selected semester
+  const [selectedSem, setSelectedSem] = useState('odd');  
 
-
-  
-  function selectSem(){
-
-    
-
+  // Function to render content based on the selected semester
+  function selectSem() {
+    return (
+      selectedSem === 'odd' ? (
+        <>
+          <div className='test'><h3>T1 odd</h3></div>
+          <div className='test'><h3>T2 odd</h3></div>
+          <div className='test'><h3>T3 odd</h3></div>
+        </>
+      ) : (
+        <>
+          <div className='test'><h3>T1 even</h3></div>
+          <div className='test'><h3>T2 even</h3></div>
+          <div className='test'><h3>T3 even</h3></div>
+        </>
+      )
+    );
   }
+
   return (
-
-
     <div>
       <div className="second-part">
         <div className='second-two'><CiStickyNote /> PREVIOUS YEAR QUESTION </div>
-        <div class="dropdown">
-        <button class="dropdown-button">End_Sem <MdOutlineKeyboardArrowDown /></button>
-        <div class="dropdown-content"> 
-          <a href="#link1">Link 1</a>
-          <a href="#link2">Link 2</a>
-          <a href="#link3">Link 3</a>
+        <div className="dropdown">
+          <button className="dropdown-button">End_Sem <MdOutlineKeyboardArrowDown /></button>
+          <div className="dropdown-content"> 
+            <a href="#link1">Link 1</a>
+            <a href="#link2">Link 2</a>
+            <a href="#link3">Link 3</a>
+          </div>
         </div>
-    </div>
-    <div class="dropdown">
-        <button class="dropdown-button">Foundation<MdOutlineKeyboardArrowDown /></button>
-    <div class="dropdown-content">
-      <a href="#link1">Link 1</a>
-      <a href="#link2">Link 2</a>
-      <a href="#link3">Link 3</a>
-    </div>
-    </div>
+        <div className="dropdown">
+          <button className="dropdown-button">Foundation<MdOutlineKeyboardArrowDown /></button>
+          <div className="dropdown-content">
+            <a href="#link1">Link 1</a>
+            <a href="#link2">Link 2</a>
+            <a href="#link3">Link 3</a>
+          </div>
         </div>
-         
-         <div className='ppr-selector'>
+      </div>
+
+      <div className='ppr-selector'>
+        <button 
+          className='sem-selector' 
+          onClick={() => setSelectedSem('odd')} // Update the state
+        >
+          <h1>ODD Sem</h1>
+        </button>
         
-             <div className='sem'>
-            <div className='sem-selector'>
-               <h1 onClick={selectSem}>ODD Sem</h1>
-            </div>
-      
-            <div className='sem-selector' onClick={selectSem}>
-               <h1>EVEN Sem</h1>
-            </div>
-            </div>
+        <button 
+          className='sem-selector' 
+          onClick={() => setSelectedSem('even')} // Update the state
+        >
+          <h1>EVEN Sem</h1>
+        </button>
+      </div>
 
-        
-
-{
-  selectSem === 'odd' ? (
-    <>
-      <div className='test'><h3>T1 odd</h3></div>
-      <div className='test'><h3>T2 odd</h3></div>
-      <div className='test'><h3>T3 odd</h3></div>
-    </>
-  ) : (
-    <>
-      <div className='test'><h3>T1 even</h3></div>
-      <div className='test'><h3>T2 even</h3></div>
-      <div className='test'><h3>T3 even</h3></div>
-    </>
-  )
-}
-        </div>
-
-
-            
+      <div>
+        {selectSem()}
+      </div>
     </div>
-  
-      
-   
-  )
-}
+  );
+};
 
-export default Pyq
+export default Pyq;

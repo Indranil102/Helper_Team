@@ -36,13 +36,6 @@ function App() {
       <Route path='/juetserver' element={<SelectDepartment
       />} />
 
-      
-     
-     
-
-
-        
-      
       </Routes>
     </BrowserRouter>
   );
