@@ -232,13 +232,18 @@ body {
       font-size: 12px;
   }
 }
-
-
-.sem {
-  margin: 50px 101px;
+.ppr-selector {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  justify-content: space-between; /* Separate left and right sections */
+  align-items: flex-start; /* Align items to the top */
+  margin: 50px 101px; /* Adjust margin as needed */
+}
+
+/* Left side: Semester selection boxes */
+.sem-selectors {
+  display: flex;
+  flex-direction: column; /* Stack ODD and EVEN boxes vertically */
+  gap: 20px; /* Space between the boxes */
 }
 
 .sem-selector {
@@ -252,4 +257,18 @@ body {
   border-radius: 5px; 
   cursor: pointer; 
   text-decoration: none; 
+}
+
+/* Style for the selected semester */
+.sem-selector.selected {
+  background-color: #4CAF50; /* Change background color for selected */
+  color: white; /* Change text color for selected */
+}
+
+/* Right side: Selected semester content */
+.selected-content {
+  flex: 1; /* Take up remaining space */
+  margin-left: 70px; /* Add some space between left and right sections */
+  border: 1px solid white;
+
 }
