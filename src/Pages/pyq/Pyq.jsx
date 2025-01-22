@@ -52,18 +52,21 @@ const Pyq = () => {
       </div>
 
       <div className='ppr-selector'>
-        <div 
-          className='sem-selector' 
-         // Update the state
+        
+        <div className='sem'>
+        <div className='sem-selector'
+           
+          onClick={() => setSelectedSem('odd')} 
         >
-          <h1  onClick={() => setSelectedSem('odd')}>ODD Sem</h1>
+          <h1>ODD Sem</h1>
         </div>
         
-        <div 
-          className='sem-selector' 
-           // Update the state
+        <div className='sem-selector'
+           
+          onClick={() => setSelectedSem('even')} 
         >
-          <h1 onClick={() => setSelectedSem('even')}>EVEN Sem</h1>
+          <h1>EVEN Sem</h1>
+        </div>
         </div>
       </div>
 
