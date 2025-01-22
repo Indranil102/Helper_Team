@@ -16,14 +16,11 @@ const Pyq = () => {
       selectedSem === 'odd' ? (
         <>
           <div className='test'><h3>T1 odd</h3></div>
-          <div className='test'><h3>T2 odd</h3></div>
-          <div className='test'><h3>T3 odd</h3></div>
+          
         </>
       ) : (
         <>
           <div className='test'><h3>T1 even</h3></div>
-          <div className='test'><h3>T2 even</h3></div>
-          <div className='test'><h3>T3 even</h3></div>
         </>
       )
     );
@@ -52,27 +49,31 @@ const Pyq = () => {
       </div>
 
       <div className='ppr-selector'>
-        
-        <div className='sem'>
-        <div className='sem-selector'
-           
-          onClick={() => setSelectedSem('odd')} 
-        >
-          <h1>ODD Sem</h1>
-        </div>
-        
-        <div className='sem-selector'
-           
-          onClick={() => setSelectedSem('even')} 
-        >
-          <h1>EVEN Sem</h1>
-        </div>
-        </div>
-      </div>
+  {/* Left side: Semester selection boxes */}
+  <div className='sem-selectors'>
+    <div 
+      className={`sem-selector ${selectedSem === 'odd' ? 'selected' : ''}`}
+      onClick={() => setSelectedSem('odd')} 
+    >
+      <h1>ODD Sem</h1>
+    </div>
+  
+    
+    <div 
+      className={`sem-selector ${selectedSem === 'even' ? 'selected' : ''}`}
+      onClick={() => setSelectedSem('even')} 
+    >
+      <h1>EVEN Sem</h1>
+    </div>
+  </div>
 
-      <div>
-        {selectSem()}
-      </div>
+ 
+  <div className='selected-content'>
+    {selectSem()}
+  </div>
+</div>
+
+      
     </div>
   );
 };
