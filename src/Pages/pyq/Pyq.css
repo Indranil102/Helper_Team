@@ -244,6 +244,8 @@ body {
   display: flex;
   flex-direction: column; /* Stack ODD and EVEN boxes vertically */
   gap: 20px; /* Space between the boxes */
+  max-width: 30%;
+  margin: 0;
 }
 
 .sem-selector {
@@ -270,5 +272,6 @@ body {
   flex: 1; /* Take up remaining space */
   margin-left: 70px; /* Add some space between left and right sections */
   border: 1px solid white;
+  max-width: 35%;
 
 }
