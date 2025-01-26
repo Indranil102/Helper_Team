@@ -244,9 +244,15 @@ body {
 /* Column container for selectors */
 .sem-selectors {
   display: flex;
+
+  flex-direction: column; /* Stack ODD and EVEN boxes vertically */
+  gap: 20px; /* Space between the boxes */
+  max-width: 30%;
+  margin: 0;
   flex-direction: column;
   gap: 20px;
   align-items: center; /* Center the column */
+
 }
 
 /* Styling for individual selectors */
@@ -276,6 +282,11 @@ body {
   flex: 1;
   margin-left: 10px;
   border: 1px solid white;
+
+  max-width: 35%;
+
+}
+
   max-width: unset; /* Allow flexibility */
 }
 

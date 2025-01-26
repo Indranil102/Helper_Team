@@ -71,6 +71,9 @@ const Pyq = () => {
   <div className='selected-content'>
     {selectSem()}
   </div>
+  <div className='selected-test'>
+    <div className='test'><h3>T1 odd</h3></div>
+  </div>
 </div>
 
       
