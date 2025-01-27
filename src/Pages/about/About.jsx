@@ -9,18 +9,27 @@ const About = () => {
     <h1 >Developers</h1>
     </div>
     <div className='about-names'>
-      <div className='container-about'>
-        <div ><img className='image'src={indu} alt="Indu" /></div>
-        <div className='personal-details'><h5>Indranil Samanta</h5>
-             <p>221B183</p>
-             <p>Prof.: Developer</p></div>
-      </div>
-      <div className='container-about'>
-        <div ><img className='image'src={me} alt="Pajju" /></div>
-        <div className='personal-details'><h5>Divyanshu Prajapati</h5>
-             <p>221B155</p>
-             <p>Prof.: Developer</p></div>
-      </div>
+    <div className="container-about">
+  <div>
+    <img className="image" src={indu} alt="Indu" />
+  </div>
+  <div className="personal-details">
+    <h5>Indranil Samanta</h5>
+    <p>221B183</p>
+    <p>Profession: Developer</p>
+  </div>
+</div>
+
+<div className="container-about">
+  <div>
+    <img className="image" src={me} alt="Indu" />
+  </div>
+  <div className="personal-details">
+    <h5>Divyanshu Prajapti</h5>
+    <p>221B155</p>
+    <p>Profession: Developer</p>
+  </div>
+</div>
     </div>
     </>
   )
