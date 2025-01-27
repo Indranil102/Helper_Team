@@ -1,0 +1,11 @@
+.paperbox{
+    border: 1px solid white;
+
+    
+    width:180px ;
+    border-radius: 12px;
+
+}
+.paper-title{
+    padding-left: 10px;
+}

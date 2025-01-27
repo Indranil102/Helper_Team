@@ -5,6 +5,7 @@ import './Pyq.css';
 import { CiStickyNote } from "react-icons/ci";
 
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import Papers from './Papers';
 
 const Pyq = () => {
   // Use state to manage selected semester
@@ -15,7 +16,9 @@ const Pyq = () => {
     return (
       selectedSem === 'odd' ? (
         <>
-          <div className='test'><h3>T1 odd</h3></div>
+          <div className='test'><h3>T1 odd</h3>
+          </div>
+         
           
         </>
       ) : (
@@ -72,7 +75,10 @@ const Pyq = () => {
     {selectSem()}
   </div>
   <div className='selected-test'>
-    <div className='test'><h3>T1 odd</h3></div>
+    <div className='test'>
+    <Papers/>
+    
+    </div>
   </div>
 </div>
 
