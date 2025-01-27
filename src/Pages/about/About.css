@@ -9,22 +9,22 @@
 }
 .about-names{
     display: flex;
-    gap: 10px;
-    
-    
+    gap:0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 20px;
 }
 .container-about {
     display: flex;
-    align-items: center; 
-    justify-content: center; 
-    
+    align-items: center;
     border: 1px solid #ddd; 
     border-radius: 12px; 
     padding: 16px; 
     height: 120px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    
-     
+    max-width: 500px; 
+    margin: 20px 0; 
   }
   
   .image {

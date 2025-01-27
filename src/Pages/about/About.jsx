@@ -20,16 +20,16 @@ const About = () => {
   </div>
 </div>
 
-<div className="container-about">
+  <div className="container-about">
   <div>
     <img className="image" src={me} alt="Indu" />
   </div>
   <div className="personal-details">
-    <h5>Divyanshu Prajapti</h5>
+    <h5>Divyanshu Prajapati</h5>
     <p>221B155</p>
     <p>Profession: Developer</p>
   </div>
-</div>
+  </div> 
     </div>
     </>
   )
