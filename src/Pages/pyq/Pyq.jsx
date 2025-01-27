@@ -18,12 +18,18 @@ const Pyq = () => {
         <>
           <div className='test'><h3>T1 odd</h3>
           </div>
+          <div className='test'><h3>T2 odd</h3>
+          </div>
+          <div className='test'><h3>T3 odd</h3>
+          </div>
          
           
         </>
       ) : (
         <>
           <div className='test'><h3>T1 even</h3></div>
+          <div className='test'><h3>T2 even</h3></div>
+          <div className='test'><h3>T3 even</h3></div>
         </>
       )
     );
@@ -75,7 +81,7 @@ const Pyq = () => {
     {selectSem()}
   </div>
   <div className='selected-test'>
-    <div className='test'>
+    <div className='select-paper'>
     <Papers/>
     
     </div>

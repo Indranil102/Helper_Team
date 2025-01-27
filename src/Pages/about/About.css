@@ -7,6 +7,10 @@
    text-shadow: 30px;
    font-size: x-large;
 }
+.about-names{
+    display: flex;
+    
+}
 .container-about {
     margin-left: 20px;
     border: 1px solid rgb(139, 139, 139);

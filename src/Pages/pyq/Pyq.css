@@ -279,11 +279,14 @@ body {
   flex: 1;
   margin-left: 10px;
   border: 1px solid white;
-
   max-width: 35%;
-
+  
 }
 
+.test{
+  border: 1px solid #fff;
+  margin: 5px 0 5px 0;
+}
   
 
 
