@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    padding: 10px; /* Add padding for spacing inside the container */
+    padding: 10px; 
 }
 
 .container-about .image {
@@ -29,10 +29,8 @@
 .personal-details {
     margin-right: 90px;
     display: flex;
-    flex-direction: column; /* Stack content vertically inside .personal-details */
-    justify-content: flex-start; /* Align items to the top */
-    align-items: flex-start; /* Align items to the left */
-    width: 70px;
-    font-size: 14px; /* Adjust text size if needed */
-   
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    font-size: 14px;    
 }
