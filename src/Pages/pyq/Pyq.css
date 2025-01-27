@@ -28,6 +28,7 @@ body {
   padding-bottom: 10px;
   flex-grow: 1;
   text-align: center;
+  margin-left: 40px;
 }
 
 
@@ -36,7 +37,6 @@ body {
   position: relative;
   display: flex;
   justify-content: space-around;
-
 }
 
 .dropdown-button {
@@ -81,7 +81,9 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.dropdown:last-child{
+  margin-right: 100px;
+}
 .main-part {
   display: flex;
   flex-direction: row;
@@ -278,7 +280,7 @@ body {
   padding: 5px 15px;
   flex: 1;
   margin-left: 10px;
-  border: 1px solid white;
+  
   max-width: 35%;
   
 }

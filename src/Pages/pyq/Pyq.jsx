@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 import './Pyq.css';
+import { FcQuestions } from "react-icons/fc";
 
-import { CiStickyNote } from "react-icons/ci";
 
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import Papers from './Papers';
@@ -38,7 +38,7 @@ const Pyq = () => {
   return (
     <div>
       <div className="second-part">
-        <div className='second-two'><CiStickyNote /> PREVIOUS YEAR QUESTION </div>
+        <div className='second-two'><FcQuestions /> PREVIOUS YEAR QUESTION </div>
         <div className="dropdown">
           <button className="dropdown-button">End_Sem <MdOutlineKeyboardArrowDown /></button>
           <div className="dropdown-content"> 
