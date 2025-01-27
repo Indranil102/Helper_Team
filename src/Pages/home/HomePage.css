@@ -6,7 +6,7 @@ body {
 }
 
 svg {
-    color: #cccccc;
+    color: #f8f7ff
 }
 
 .Navbar {
@@ -35,13 +35,13 @@ svg {
     margin: 0 15px;
     font-weight: 800;
     font-size: 26px;
-    color: #ffffff;
+    color: #f8f7ff;
     cursor: pointer;
 }
 
 h4 button, 
 .helper .signin {
-    color: rgb(208, 207, 207); 
+    color: #f8f7ff; 
     border: 2px solid #27272A; 
     background: none; 
     padding: 8px 16px; 
@@ -55,13 +55,13 @@ h4 button,
 h4 button:hover,
 .helper .signin:hover {
     border-color: purple; 
-    color: white;
+    color:#f8f7ff;
     transform: scale(1.1) translateY(-2px);
 }
 
 .content {
     display: flex;
-    flex-wrap: wrap; /* Makes the layout responsive */
+    flex-wrap: wrap; 
     gap: 20px;
     background-color: #27272A;
     padding: 20px;
@@ -76,14 +76,14 @@ h4 button:hover,
 
 .left-Content h2 {
     font-size: 36px; 
-    color: #ffffff; 
+    color:#f8f7ff; 
     margin-bottom: 15px;
     text-align: left;
 }
 
 .left-Content p {
     font-size: 16px; 
-    color: #ffffff; 
+    color:#f8f7ff; 
     line-height: 1.6;
 }
 
@@ -123,7 +123,7 @@ h4 button:hover,
 
 .click p {
     font-size: 14px; 
-    color: #ffffff; 
+    color: #f8f7ff; 
     text-align: center;
     border-style: none;
     text-decoration: none; 
@@ -136,7 +136,7 @@ h4 button:hover,
 }
 
 .extra {
-    color: #ffffff;
+    color: #f8f7ff;
     margin: 15px auto;
     padding: 0 30px;
 }
@@ -177,7 +177,7 @@ h4 button:hover,
 
 .extra h3 svg {
     font-size: 20px;
-    color: #f1f1f1;
+    color: #f8f7ff;
     margin-right: 8px;
     height: 20px;
    
@@ -196,9 +196,7 @@ h4 button:hover,
     transition: all 0.2s ease-in-out;
 }
 
-/* Responsive Design with Media Queries */
 
-/* Tablet View */
 @media (max-width: 1024px) {
     .Navbar {
         flex-direction: column;

@@ -14,7 +14,8 @@ const About = () => {
     <img className="image" src={indu} alt="Indu" />
   </div>
   <div className="personal-details">
-    <h5>Indranil Samanta</h5>
+
+    <h5><a href="https://www.linkedin.com/in/indranil-samanta-26558a253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Indranil Samanta</a></h5>
     <p>221B183</p>
     <p>Profession: Developer</p>
   </div>
