@@ -8,6 +8,7 @@ import SignUp from './Component/signup/SignUp';
 import Notes from './Pages/notes/Notes';
 
 import SelectDepartment from './Pages/SelectDepartment/SelectDepartment';
+import About from './Pages/about/About';
 
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
 
       <Route path='/notes' element={<Notes/>} />
       <Route path='/juetserver' element={<SelectDepartment
+      />} />
+      <Route path='/About' element={<About
       />} />
 
       </Routes>

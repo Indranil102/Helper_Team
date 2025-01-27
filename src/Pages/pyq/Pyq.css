@@ -7,15 +7,13 @@ body {
   overflow-x: hidden;
 }
 
-.navbar {
-  margin-top: 0;
-}
+
 
 .second-part {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 20px;
   color: white;
   font-size: 18px;
@@ -32,14 +30,13 @@ body {
   text-align: center;
 }
 
-.dropdown-container {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
+
 
 .dropdown {
   position: relative;
+  display: flex;
+  justify-content: space-around;
+
 }
 
 .dropdown-button {

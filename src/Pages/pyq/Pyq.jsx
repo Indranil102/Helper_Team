@@ -8,10 +8,10 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import Papers from './Papers';
 
 const Pyq = () => {
-  // Use state to manage selected semester
+ 
   const [selectedSem, setSelectedSem] = useState('odd');  
 
-  // Function to render content based on the selected semester
+  
   function selectSem() {
     return (
       selectedSem === 'odd' ? (
