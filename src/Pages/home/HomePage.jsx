@@ -1,4 +1,4 @@
-//import React, { useState } from 'react'
+import React, { useState } from 'react'
 import './HomePage.css'  
 import { RxLaptop } from "react-icons/rx";
 import {Link} from 'react-router-dom';
@@ -11,24 +11,24 @@ import { HiOutlineServer } from "react-icons/hi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 
 const HomePage = () => {
-    // const [transformStyle, setTransformStyle] = useState('translate(0, 0)');
+     const [transformStyle, setTransformStyle] = useState('translate(0, 0)');
 
-    // const handleMouseMove = (e) => {
-    //   const img = e.currentTarget.querySelector('img');
-    //   const { left, top, width, height } = img.getBoundingClientRect();
+    const handleMouseMove = (e) => {
+      const img = e.currentTarget.querySelector('img');
+      const { left, top, width, height } = img.getBoundingClientRect();
   
-    //   const x = e.clientX - left;
-    //   const y = e.clientY - top;
+      const x = e.clientX - left;
+      const y = e.clientY - top;
   
-    //   const moveX = (x / width) * 20 - 10; // Range: -10px to 10px
-    //   const moveY = (y / height) * 20 - 10; // Range: -10px to 10px
+      const moveX = (x / width) * 20 - 10; 
+      const moveY = (y / height) * 20 - 10; 
   
-    //   setTransformStyle(`translate(${moveX}px, ${moveY}px)`); // Set transform based on cursor position
-    // };
+      setTransformStyle(`translate(${moveX}px, ${moveY}px)`); 
+    };
   
-    // const handleMouseLeave = () => {
-    //   setTransformStyle('translate(0, 0)'); // Reset position when mouse leaves
-    // };
+    const handleMouseLeave = () => {
+      setTransformStyle('translate(0, 0)'); 
+    };
   
   return (
     
@@ -70,9 +70,23 @@ const HomePage = () => {
                     
                 </div>
             </div>
-            <div className="right">
-            <img src={illustrator} alt="illuststion" />
-            </div>
+            <div
+      className="right"
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+    >
+      <img
+        src={illustrator} 
+        alt="Illustration"
+        style={{
+          width: '100%',
+          maxWidth: '600px',
+          height: 'auto',
+          margin: '0 auto',
+          transition: 'transform 0.1s ease-out', 
+          transform: transformStyle, 
+        }} />
+        </div>
 
         </div>
         <div className="extra">
