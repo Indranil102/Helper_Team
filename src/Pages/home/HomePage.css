@@ -61,7 +61,7 @@ h4 button:hover,
 
 .content {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 20px;
     background-color: #27272A;
     padding: 20px;
@@ -87,12 +87,20 @@ h4 button:hover,
     line-height: 1.6;
 }
 
-.right img {
-    width: 100%; /* Image scales for responsiveness */
+.right {
+    position: relative;
+    overflow: hidden; 
+  } 
+  
+  .right img {
+    width: 100%;
     max-width: 600px;
     height: auto;
     margin: 0 auto;
-}
+    transition: transform 0.1s ease-out; 
+  }
+  
+
 
 .container {
     display: flex;
@@ -115,7 +123,7 @@ h4 button:hover,
     border-radius: 8px; 
     border: 1px solid white;
     
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.5s ease, background-color 0.5s ease;
     cursor: pointer;
 
 
@@ -123,17 +131,20 @@ h4 button:hover,
 
 .click p {
     font-size: 14px; 
+    font-weight: 600;
     color: #f8f7ff; 
     text-align: center;
     border-style: none;
     text-decoration: none; 
+    transition: transform 0.5s ease, color 0.3s ease;
 }
-
 
 .click:hover {
-    transform: translateY(-5px); 
-    background-color: blueviolet;
+    transform: translateX(-5px) translateY(-5px); /* Slight movement on hover */
+    background-color:#8B008B;
 }
+
+
 
 .extra {
     color: #f8f7ff;
@@ -191,7 +202,7 @@ h4 button:hover,
 
 .click svg:hover, 
 .extra h3 svg:hover {
-    color: #FF5722;
+    color: #f8f7ff;
     transform: scale(1.1);
     transition: all 0.2s ease-in-out;
 }

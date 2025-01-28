@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    color: white; 
+    color: #f8f7ff; 
     margin-bottom: 10px; 
   }
   
@@ -27,7 +27,7 @@
   
   .dropdown-button {
     background-color: #c747dd;
-    color: white;
+    color: #f8f7ff;
     border: none;
     padding: 10px 15px;
     font-size: 1rem;
@@ -54,7 +54,7 @@
   
  
   .dropdown-content a {
-    color: white;
+    color: #f8f7ff;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -65,7 +65,7 @@
   
   .dropdown-content a:hover {
     background-color: #d66df4; 
-    color: white;
+    color: #f8f7ff;
   }
   
   

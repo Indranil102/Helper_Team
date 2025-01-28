@@ -1,4 +1,4 @@
-import React from 'react'
+//import React, { useState } from 'react'
 import './HomePage.css'  
 import { RxLaptop } from "react-icons/rx";
 import {Link} from 'react-router-dom';
@@ -11,7 +11,27 @@ import { HiOutlineServer } from "react-icons/hi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 
 const HomePage = () => {
+    // const [transformStyle, setTransformStyle] = useState('translate(0, 0)');
+
+    // const handleMouseMove = (e) => {
+    //   const img = e.currentTarget.querySelector('img');
+    //   const { left, top, width, height } = img.getBoundingClientRect();
+  
+    //   const x = e.clientX - left;
+    //   const y = e.clientY - top;
+  
+    //   const moveX = (x / width) * 20 - 10; // Range: -10px to 10px
+    //   const moveY = (y / height) * 20 - 10; // Range: -10px to 10px
+  
+    //   setTransformStyle(`translate(${moveX}px, ${moveY}px)`); // Set transform based on cursor position
+    // };
+  
+    // const handleMouseLeave = () => {
+    //   setTransformStyle('translate(0, 0)'); // Reset position when mouse leaves
+    // };
+  
   return (
+    
     
     <div>
         
