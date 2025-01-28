@@ -38,13 +38,14 @@ const Pyq = () => {
   return (
     <div>
       <div className="second-part">
-        <div className='second-two'><FcQuestions /> PREVIOUS YEAR QUESTION </div>
+        <div className='second-two'><span>< FcQuestions /> </span>PREVIOUS YEAR QUESTION </div>
         <div className="dropdown">
-          <button className="dropdown-button">End_Sem <MdOutlineKeyboardArrowDown /></button>
+          <button className="dropdown-button">Choose Year <MdOutlineKeyboardArrowDown /></button>
           <div className="dropdown-content"> 
-            <a href="#link1">Link 1</a>
-            <a href="#link2">Link 2</a>
-            <a href="#link3">Link 3</a>
+            <a href="#link1">1 Year</a>
+            <a href="#link2">2 Year</a>
+            <a href="#link3">3 Year</a>
+            <a href="#link3">4 Year</a>
           </div>
         </div>
         <div className="dropdown">

@@ -29,6 +29,12 @@ body {
   flex-grow: 1;
   text-align: center;
   margin-left: 40px;
+  gap:8px;
+}
+.second-two span{
+  width: 100px; 
+  height: auto;
+  background-color: #4CAF50;
 }
 
 
@@ -40,7 +46,7 @@ body {
 }
 
 .dropdown-button {
-  background-color: #27272A;
+  background-color: #8B008B;
   color: #f8f7ff;
   padding: 10px 16px;
   border: 1px solid white;
@@ -58,7 +64,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #27272A;
+  background-color: #b8b03e;
   min-width: 160px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -75,7 +81,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: rgb(74, 60, 180);
+  background-color:#8B008B;
 }
 
 .dropdown:hover .dropdown-content {
@@ -112,7 +118,7 @@ body {
   justify-content: space-between;
   gap: 10px;
   padding: 15px;
-  background-color: #555555;
+  background-color: #d14444;
   border: 2px solid #333;
   border-radius: 8px;
   font-size: 16px;
