@@ -231,30 +231,30 @@ body {
       font-size: 12px;
   }
 }
-/* Container for the primary selector */
+
 .ppr-selector {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 50px auto; /* Center horizontally */
-  padding: 0 5%; /* Responsive padding */
+  margin: 50px auto; 
+  padding: 0 5%; 
 }
 
-/* Column container for selectors */
+
 .sem-selectors {
   display: flex;
 
-  flex-direction: column; /* Stack ODD and EVEN boxes vertically */
-  gap: 20px; /* Space between the boxes */
+  flex-direction: column; 
+  gap: 20px; 
   max-width: 30%;
   margin: 0;
   flex-direction: column;
   gap: 20px;
-  align-items: center; /* Center the column */
+  align-items: center; 
 
 }
 
-/* Styling for individual selectors */
+
 .sem-selector {
   display: inline-block;
   background-color: #ddd;
@@ -266,16 +266,16 @@ body {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-/* Active state for selectors */
+
 .sem-selector.selected {
   background-color: #4CAF50;
   color: white;
 }
 
-/* Styling for selected content */
+
 .selected-content {
   padding: 5px 15px;
   flex: 1;

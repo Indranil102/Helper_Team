@@ -16,11 +16,10 @@
   justify-content: center;
   height: 80vh;
   flex-wrap: wrap;
-  width: 100%; /* Full viewport width */
-  text-align: center; /* Center text elements inside the container */
-   /* Optional background color */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  width: 100%; 
+  text-align: center; 
+  margin: 0; 
+  padding: 0;
   overflow: hidden;
 }
 
@@ -71,7 +70,7 @@
   height: 50px;
 }
 .box:hover {
-  background-color: rgb(74, 60, 180); /* Corrected property name */
+  background-color: rgb(74, 60, 180);
   color: white;
   transform: scale(1.05);
 }
