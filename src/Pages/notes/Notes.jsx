@@ -2,12 +2,9 @@ import React from 'react'
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { CiStickyNote } from "react-icons/ci";
 import './Notes.css'
-
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { LuCloudDownload } from "react-icons/lu";
 import { IoLinkOutline } from "react-icons/io5";
-
-
 
 const Notes = () => {
 
