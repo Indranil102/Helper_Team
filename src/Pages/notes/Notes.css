@@ -1,5 +1,5 @@
 
-.second-part {
+.second-part-n{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +9,7 @@
   }
   
   
-  .second-two {
+  .second-two-n{
     display: flex;
     align-items: center;
     font-size: 1.2rem;
@@ -18,14 +18,14 @@
   }
   
 
-  .dropdown {
+  .dropdown-n{
     position: relative;
     display: inline;
     margin-bottom: 20px;
   }
   
   
-  .dropdown-button {
+  .dropdown-button-n{
     background-color: #c747dd;
     color: #f8f7ff;
     border: none;
@@ -36,12 +36,12 @@
     transition: background-color 0.3s ease; 
   }
   
-  .dropdown-button:hover {
-    background-color: #577ce2; 
+  .dropdown-button-n:hover {
+    background-color: #fff; 
   }
   
   
-  .dropdown-content {
+  .dropdown-content-n{
     display: none;
     position: absolute;
     background-color: #333; 
@@ -53,7 +53,7 @@
   }
   
  
-  .dropdown-content a {
+  .dropdown-content-n a {
     color: #f8f7ff;
     padding: 12px 16px;
     text-decoration: none;
@@ -63,43 +63,43 @@
     transition: background-color 0.3s ease; 
   }
   
-  .dropdown-content a:hover {
+  .dropdown-content-n a:hover{
     background-color: #d66df4; 
     color: #f8f7ff;
   }
   
   
-  .dropdown:hover .dropdown-content {
+  .dropdown-n:hover .dropdown-content-n{
     display: block;
   }
   
   
   @media screen and (max-width: 768px) {
-    .second-part {
+    .second-part-n{
       flex-direction: column; 
       align-items: center;
       justify-content: space-around;
     }
   
-    .second-two {
+    .second-two-n{
       order: 2; 
       margin-bottom: 15px; 
       text-align: left; 
       width: 50%;
     }
   
-    .dropdown {
+    .dropdown-n{
       order: 1; 
       margin-bottom: 15px;
       width: 100%; 
     }
   
-    .dropdown-button {
+    .dropdown-button-n{
       width: 100%; 
       text-align: center; 
     }
   
-    .dropdown-content {
+    .dropdown-content-n{
       position: static; 
       width: 100%; 
       box-shadow: none; 
@@ -108,17 +108,17 @@
   
   
   @media screen and (max-width: 480px) {
-    .second-two {
+    .second-two-n{
       font-size: 1rem; 
       text-align: center; 
     }
   
-    .dropdown-button {
+    .dropdown-button-n{
       font-size: 0.9rem; 
       padding: 8px 12px;
     }
   
-    .dropdown-content a {
+    .dropdown-content-n a {
       font-size: 0.8rem; 
       padding: 10px 12px;
     }

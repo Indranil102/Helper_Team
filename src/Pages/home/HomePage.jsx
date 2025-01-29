@@ -82,7 +82,7 @@ const HomePage = () => {
           width: '100%',
           maxWidth: '600px',
           height: 'auto',
-          margin: '0 auto',
+          margin: '70px 0 0 0',
           transition: 'transform 0.1s ease-out', 
           transform: transformStyle, 
         }} />
