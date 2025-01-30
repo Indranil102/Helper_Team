@@ -28,10 +28,9 @@ body {
   margin-left: 40px;
   gap:8px;
 }
-.second-two span{
-  width: 100px; 
-  height: auto;
-  background-color: #4CAF50;
+.second-two svg{
+  width: 30px;
+  height: 30px;
 }
 
 
@@ -299,6 +298,5 @@ body {
   border: 1px solid #fff;
   margin: 5px 0 5px 0;
 }
-  
 
 
