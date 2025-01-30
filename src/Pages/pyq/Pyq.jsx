@@ -58,7 +58,7 @@ const Pyq = () => {
       </div>
 
       <div className='ppr-selector'>
-  {/* Left side: Semester selection boxes */}
+  
   <div className='sem-selectors'>
     <div 
       className={`sem-selector ${selectedSem === 'odd' ? 'selected' : ''}`}
