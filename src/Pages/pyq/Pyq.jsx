@@ -10,26 +10,27 @@ import Papers from './Papers';
 const Pyq = () => {
  
   const [selectedSem, setSelectedSem] = useState('odd');  
+  const [selectedtest, setSelectedtest]= useState('t1');
 
   
   function selectSem() {
     return (
       selectedSem === 'odd' ? (
         <>
-          <div className='test'><h3>T1 odd</h3>
+          <div className={`test ${selectedtest=== 't1' ? 'selected' : ''}`} onClick={() => setSelectedtest('t1')} ><h3>T1 odd</h3>
           </div>
-          <div className='test'><h3>T2 odd</h3>
+          <div className={`test ${selectedtest=== 't2' ? 'selected' : ''}`} onClick={() => setSelectedtest('t2')}><h3>T2 odd</h3>
           </div>
-          <div className='test'><h3>T3 odd</h3>
+          <div className={`test ${selectedtest=== 't3' ? 'selected' : ''}`} onClick={() => setSelectedtest('t3')}><h3>T3 odd</h3>
           </div>
          
           
         </>
       ) : (
         <>
-          <div className='test'><h3>T1 even</h3></div>
-          <div className='test'><h3>T2 even</h3></div>
-          <div className='test'><h3>T3 even</h3></div>
+          <div className={`test ${selectedtest=== 't1' ? 'selected' : ''}`} onClick={() => setSelectedtest('t1')}><h3>T1 even</h3></div>
+          <div className={`test ${selectedtest=== 't2' ? 'selected' : ''}`} onClick={() => setSelectedtest('t2')}><h3>T2 even</h3></div>
+          <div className={`test ${selectedtest=== 't3' ? 'selected' : ''}`} onClick={() => setSelectedtest('t3')}><h3>T3 even</h3></div>
         </>
       )
     );
@@ -83,7 +84,7 @@ const Pyq = () => {
   </div>
   <div className='selected-test'>
     <div className='select-paper'>
-    <Papers/>
+    <Papers Sem={selectedSem} test={selectedtest}/>
     
     </div>
   </div>

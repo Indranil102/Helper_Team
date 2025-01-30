@@ -6,11 +6,12 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+
+
 .second-part {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
   margin-top: 20px;
   color: #f8f7ff;
   font-size: 18px;
@@ -24,14 +25,13 @@ body {
   margin: 0;
   padding-bottom: 10px;
   flex-grow: 1;
-  text-align: center;
   margin-left: 40px;
   gap:8px;
 }
 .second-two span{
   width: 100px; 
   height: auto;
-  
+  background-color: #4CAF50;
 }
 
 
@@ -43,7 +43,7 @@ body {
 }
 
 .dropdown-button {
-  background-color: #8B008B;
+  background-color: transparent;
   color: #f8f7ff;
   padding: 10px 16px;
   border: 1px solid white;
@@ -56,6 +56,12 @@ body {
   gap: 5px;
   width: 100%;
   text-align: center;
+}
+.dropdown-button:hover{
+  background-color: #8B008B;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
 }
 
 .dropdown-content {
@@ -81,7 +87,8 @@ body {
   background-color:#8B008B;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover,
+.dropdown-content:hover {
   display: block;
 }
 .dropdown:last-child{
