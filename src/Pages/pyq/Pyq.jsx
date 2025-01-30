@@ -23,8 +23,6 @@ const Pyq = () => {
           </div>
           <div className={`test ${selectedtest=== 't3' ? 'selected' : ''}`} onClick={() => setSelectedtest('t3')}><h3>T3 odd</h3>
           </div>
-         
-          
         </>
       ) : (
         <>
