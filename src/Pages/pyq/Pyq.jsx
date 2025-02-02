@@ -7,11 +7,11 @@ import Papers from './Papers';
 const Pyq = () => {
   const [selectedSem, setSelectedSem] = useState('odd');  
   const [selectedtest, setSelectedtest] = useState('t1');
-  const [isTestSelected, setIsTestSelected] = useState(false);
+  
   const [selectedYear, setSelectedYear] = useState('first');
   function handleTestClick(test) {
     setSelectedtest(test);
-    setIsTestSelected(true);
+    
   }
 
   function selectSem() {
@@ -49,7 +49,7 @@ const Pyq = () => {
       <div className="second-part">
         <div className='second-two'>< FcQuestions /><span>PREVIOUS YEAR QUESTION</span></div>
         <div className="dropdown">
-          <button className="dropdown-button">Choose Year <MdOutlineKeyboardArrowDown /></button>
+          <button className="dropdown-button">{selectedYear} Year<MdOutlineKeyboardArrowDown /></button>
           <div className="dropdown-content"> 
             <a href="#link1" className={selectedYear === 'first'? 'selected': ''} onClick={() => setSelectedYear('first')}>1 Year</a>
             <a href="#link2" className={selectedYear === 'second'? 'selected': ''} onClick={() => setSelectedYear('second')}>2 Year</a>
@@ -67,7 +67,7 @@ const Pyq = () => {
         </div>
       </div>
       <div className='ppr-selector'>
-        {!isTestSelected && ( // Hide sem-selectors when a test is selected
+       
           <div className='sem-selectors'>
             <div 
               className={`sem-selector ${selectedSem === 'odd' ? 'selected' : ''}`}
@@ -82,22 +82,22 @@ const Pyq = () => {
               <h1>EVEN Sem</h1>
             </div>
           </div>
-        )}
+       
 
         
-        {!isTestSelected && ( 
+        
           <div className='selected-content'>
           {selectSem()}
         </div>
 
-        )}
-        {isTestSelected && (
+        
+        
           <div className='selected-test'>
           <div className='select-paper'>
             <Papers Sem={selectedSem} test={selectedtest} year={selectedYear}/>
           </div>
         </div>
-        )}
+        
         
       </div>
     </div>
