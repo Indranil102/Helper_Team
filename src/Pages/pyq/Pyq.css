@@ -263,13 +263,12 @@ body {
 
 }
 
-
 .sem-selector {
   display: inline-block;
-  background-color: #ddd;
+  background-color:  #f8f7ff;
   padding: 10px 15px;
   max-width: 200px;
-  border: 2px solid white;
+  border: 1px solid white;
   color: black;
   text-align: center;
   border-radius: 5px;
@@ -281,22 +280,31 @@ body {
 
 .sem-selector.selected {
   background-color: rgb(74, 60, 180);
-  color: white;
+  color:  #f8f7ff;
 }
 
 
 .selected-content {
   padding: 5px 15px;
   flex: 1;
-  margin-left: 10px;
+  margin-left: 100px;
+ 
+  width: 20px;
   
-  max-width: 35%;
   
 }
 
 .test{
   border: 1px solid #fff;
+  width: 200px;
+
   margin: 5px 0 5px 0;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: #f8f7ff;
+  font-weight: 700;
+  text-align: center;
+
 }
 
 
