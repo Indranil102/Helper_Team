@@ -8,7 +8,7 @@ const Pyq = () => {
   const [selectedSem, setSelectedSem] = useState('odd');  
   const [selectedtest, setSelectedtest] = useState('t1');
   const [isTestSelected, setIsTestSelected] = useState(false);
-
+  const [selectedYear, setSelectedYear] = useState('first');
   function handleTestClick(test) {
     setSelectedtest(test);
     setIsTestSelected(true);
@@ -51,10 +51,10 @@ const Pyq = () => {
         <div className="dropdown">
           <button className="dropdown-button">Choose Year <MdOutlineKeyboardArrowDown /></button>
           <div className="dropdown-content"> 
-            <a href="#link1">1 Year</a>
-            <a href="#link2">2 Year</a>
-            <a href="#link3">3 Year</a>
-            <a href="#link3">4 Year</a>
+            <a href="#link1" className={selectedYear === 'first'? 'selected': ''} onClick={() => setSelectedYear('first')}>1 Year</a>
+            <a href="#link2" className={selectedYear === 'second'? 'selected': ''} onClick={() => setSelectedYear('second')}>2 Year</a>
+            <a href="#link3" className={selectedYear === 'third'? 'selected': ''} onClick={() => setSelectedYear('third')}>3 Year</a>
+            <a href="#link3" className={selectedYear === 'fourth'? 'selected': ''} onClick={() => setSelectedYear('fourth')}>4 Year</a>
           </div>
         </div>
         <div className="dropdown">
@@ -66,7 +66,6 @@ const Pyq = () => {
           </div>
         </div>
       </div>
-
       <div className='ppr-selector'>
         {!isTestSelected && ( // Hide sem-selectors when a test is selected
           <div className='sem-selectors'>
@@ -95,7 +94,7 @@ const Pyq = () => {
         {isTestSelected && (
           <div className='selected-test'>
           <div className='select-paper'>
-            <Papers Sem={selectedSem} test={selectedtest} />
+            <Papers Sem={selectedSem} test={selectedtest} year={selectedYear}/>
           </div>
         </div>
         )}
