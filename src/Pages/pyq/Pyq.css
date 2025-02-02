@@ -280,7 +280,7 @@ body {
 
 
 .sem-selector.selected {
-  background-color: #4CAF50;
+  background-color: rgb(74, 60, 180);
   color: white;
 }
 
