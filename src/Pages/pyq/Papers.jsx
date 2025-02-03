@@ -16,47 +16,48 @@ const Papers = ({ Sem, test, year}) => {
             </div>;
             case "t2":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t3":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             default:
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
           }
         } else {
           switch (test) {
             case "t1":
-              return <div className="paper-container"><div className="paperbox">1paperevent1</div>
-              <div className="paperbox">1paperevent1</div>
-              <div className="paperbox">1paperevent1</div>
-              </div>;
+              return <div className="paper-container">
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
+            </div>;
             case "t2":
               return <div className="paper-container">
-                <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-                <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-                <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              </div>;
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
+            </div>;
             case "t3":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-            </div>;
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
+            </div>;;
             default:
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
           }
         }
@@ -67,54 +68,54 @@ const Papers = ({ Sem, test, year}) => {
           switch (test) {
             case "t1":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t2":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t3":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             default:
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
           }
         } else {
           switch (test) {
             case "t1":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t2":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t3":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             default:
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
           }
         }
@@ -125,54 +126,54 @@ const Papers = ({ Sem, test, year}) => {
           switch (test) {
             case "t1":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t2":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t3":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             default:
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
           }
         } else {
           switch (test) {
             case "t1":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t2":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t3":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             default:
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
           }
         }
@@ -183,54 +184,54 @@ const Papers = ({ Sem, test, year}) => {
           switch (test) {
             case "t1":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t2":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t3":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             default:
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
           }
         } else {
           switch (test) {
             case "t1":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t2":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t3":
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             default:
               return <div className="paper-container">
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
-              <div className="paperbox"><image src={paper}/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
           }
         }
