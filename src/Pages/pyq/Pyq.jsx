@@ -90,6 +90,7 @@ const Pyq = () => {
           {selectSem()}
         </div> 
       </div>
+      <div className='pyqs'><h4>PYQs</h4></div>
       <div className='selected-test'>
           <div className='select-paper'>
             <Papers Sem={selectedSem} test={selectedtest} year={selectedYear}/>
