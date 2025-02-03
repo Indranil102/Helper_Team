@@ -21,7 +21,8 @@
     color: #f8f7ff;
     cursor: pointer;
     
-
-
-
+}
+.paperbox img{
+    height: 100px;
+    width: 100px;
 }

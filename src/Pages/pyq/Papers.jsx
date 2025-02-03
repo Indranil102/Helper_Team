@@ -10,9 +10,9 @@ const Papers = ({ Sem, test, year}) => {
           switch (test) {
             case "t1":
               return <div className="paper-container">
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
-              <div className="paperbox"><img src={paper} alt="#"/><span>1paperevent2</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2022</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2023</span></div>
+              <div className="paperbox"><img src={paper} alt="#"/><span>2024</span></div>
             </div>;
             case "t2":
               return <div className="paper-container">
