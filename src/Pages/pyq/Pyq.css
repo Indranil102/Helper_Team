@@ -31,6 +31,7 @@ body {
 .second-two svg{
   width: 30px;
   height: 30px;
+  display: run-in;
 }
 
 
