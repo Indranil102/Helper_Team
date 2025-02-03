@@ -88,18 +88,13 @@ const Pyq = () => {
         
           <div className='selected-content'>
           {selectSem()}
-        </div>
-
-        
-        
-          <div className='selected-test'>
+        </div> 
+      </div>
+      <div className='selected-test'>
           <div className='select-paper'>
             <Papers Sem={selectedSem} test={selectedtest} year={selectedYear}/>
           </div>
         </div>
-        
-        
-      </div>
     </div>
   );
 };

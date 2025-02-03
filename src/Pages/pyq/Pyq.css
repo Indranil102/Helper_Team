@@ -31,6 +31,7 @@ body {
 .second-two svg{
   width: 30px;
   height: 30px;
+  display: run-in;
 }
 
 
@@ -247,28 +248,29 @@ body {
 
 .ppr-selector {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  gap: 20px;
+  align-items: center;
   margin: 50px auto; 
+  justify-content: center;
   padding: 0 5%; 
 }
 
 
 .sem-selectors {
   display: flex;
-
+  
   flex-direction: column; 
   gap: 20px; 
   max-width: 300%;
   margin: 0;
   flex-direction: column;
-  gap: 20px;
   align-items: center; 
 
 }
 
 .sem-selector {
   display: inline-block;
+  margin-left: 100px;
   background-color:  #f8f7ff;
   padding: 10px 15px;
   width: 300px;
@@ -290,15 +292,19 @@ body {
 
 .selected-content {
   padding: 5px 15px;
+
+  flex: 1;
+  margin-left: 200px;
+  background-color: #6200ea;
+  min-width: 150px;
+  max-width: 250px;
   
   margin-left: 10px;
   
   width: 200px;
   gap: 10px;
  
-  
-  
-  
+ 
 }
 
 .test{
