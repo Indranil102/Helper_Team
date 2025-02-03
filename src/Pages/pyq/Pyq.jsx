@@ -6,7 +6,7 @@ import Papers from './Papers';
 
 const Pyq = () => {
   const [selectedSem, setSelectedSem] = useState('odd');  
-  const [selectedtest, setSelectedtest] = useState('t1');
+  const [selectedtest, setSelectedtest] = useState('t0');
   const [clickedTest, setClickedTest] = useState(false);
   const [selectedYear, setSelectedYear] = useState('first');
   function handleTestClick(test) {
@@ -18,6 +18,7 @@ const Pyq = () => {
     return (
       selectedSem === 'odd' ? (
         <>
+          <div style={{gap:'20px', display:'flex', flexDirection:'column'}}>
           <div className={`test ${selectedtest === 't1' ? 'selected' : ''}`} onClick={() => handleTestClick('t1')}>
             <h3>T1 odd</h3>
           </div>
@@ -26,6 +27,7 @@ const Pyq = () => {
           </div>
           <div className={`test ${selectedtest === 't3' ? 'selected' : ''}`} onClick={() => handleTestClick('t3')}>
             <h3>T3 odd</h3>
+          </div>
           </div>
         </>
       ) : (
@@ -50,7 +52,7 @@ const Pyq = () => {
   return (
     <div>
       <div className="second-part">
-        <div className='second-two'>< FcQuestions /><span>PREVIOUS YEAR QUESTION</span></div>
+        <div className='second-two'>< FcQuestions /><div>PREVIOUS YEAR QUESTION</div></div>
         <div className="dropdown">
           <button className="dropdown-button">{selectedYear} Year<MdOutlineKeyboardArrowDown /></button>
           <div className="dropdown-content"> 
