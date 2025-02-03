@@ -1,4 +1,4 @@
-
+/* 
 .second-part-n{
     display: flex;
     justify-content: space-between;
@@ -123,4 +123,17 @@
       padding: 10px 12px;
     }
   }
-  
+   */
+  .lock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d66df4;
+    height: 100px; /* Added height to match your .lock svg height */
+  }
+  .lock svg {
+    width: 50%;
+    height: 100%; /* Adjusted height to fill the container */
+    background-color: #fff; /* Removed background-color from svg */
+  }

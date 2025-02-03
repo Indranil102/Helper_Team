@@ -6,6 +6,7 @@
 // import { LuCloudDownload } from "react-icons/lu";
 // import { IoLinkOutline } from "react-icons/io5";
 
+import { FaLock } from "react-icons/fa6";
 const Notes = () => {
 
 // const fileUrl1 = "https://drive.google.com/file/d/1Ece0MVz3K6eEmoZm4fiNHLhSEQyA427o/view?usp=drive_link";
@@ -17,7 +18,7 @@ const Notes = () => {
 // const getShortenedUrl = (url) => {
 //   return url.length > 30 ? `${url.substring(0, 30)}...` : url;
 // };
-//   return (
+  return (
 //     <div>
 //       <div className="second-part-n">
 //               <div className='second-two-n'><CiStickyNote /> PREVIOUS YEAR QUESTION </div>
@@ -31,8 +32,10 @@ const Notes = () => {
 //             <a href="#link4">IV-YEAR</a>
 //           </div>
 //           </div>
-          
-             
+           
+<div class="lock">
+<svg class="lock-icon"><FaLock /></svg>
+</div>
 //           </div>
 //           <div className="main-part-n">
 //                 <div className="left-part-n">
@@ -116,7 +119,7 @@ const Notes = () => {
           
 //               </div>
     
-//   )
+  )
 }
 
 export default Notes
