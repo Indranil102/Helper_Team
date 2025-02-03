@@ -7,11 +7,11 @@ import Papers from './Papers';
 const Pyq = () => {
   const [selectedSem, setSelectedSem] = useState('odd');  
   const [selectedtest, setSelectedtest] = useState('t1');
-  
+  const [clickedTest, setClickedTest] = useState(false);
   const [selectedYear, setSelectedYear] = useState('first');
   function handleTestClick(test) {
     setSelectedtest(test);
-    
+    setClickedTest(true);
   }
 
   function selectSem() {
@@ -30,6 +30,7 @@ const Pyq = () => {
         </>
       ) : (
         <>
+          <div style={{gap:'20px', display:'flex',flexDirection:'column'}}>
           <div className={`test ${selectedtest === 't1' ? 'selected' : ''}`} onClick={() => handleTestClick('t1')}>
             <h3>T1 even</h3>
           </div>
@@ -39,6 +40,8 @@ const Pyq = () => {
           <div className={`test ${selectedtest === 't3' ? 'selected' : ''}`} onClick={() => handleTestClick('t3')}>
             <h3>T3 even</h3>
           </div>
+          </div>
+         
         </>
       )
     );
@@ -90,12 +93,20 @@ const Pyq = () => {
           {selectSem()}
         </div> 
       </div>
+      
       <div className='pyqs'><h4>PYQs</h4></div>
-      <div className='selected-test'>
-          <div className='select-paper'>
-            <Papers Sem={selectedSem} test={selectedtest} year={selectedYear}/>
-          </div>
+      
+      {clickedTest && (
+
+        <div className='selected-test'>
+        <div className='select-paper'>
+          <Papers Sem={selectedSem} test={selectedtest} year={selectedYear}/>
         </div>
+        </div>
+      )
+      }
+
+      
     </div>
   );
 };
