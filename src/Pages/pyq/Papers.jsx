@@ -19,9 +19,16 @@ const Papers = ({ Sem, test, year}) => {
         } else {
           switch (test) {
             case "t1":
-              return <div className="paperbox">1paperevent1</div>;
+              return <div className="paper-container"><div className="paperbox">1paperevent1</div>
+              <div className="paperbox">1paperevent1</div>
+              <div className="paperbox">1paperevent1</div>
+              </div>;
             case "t2":
-              return <div className="paperbox">1paperevent2</div>;
+              return <div className="paper-container">
+                <div className="paperbox">1paperevent2</div>
+                <div className="paperbox">1paperevent2</div>
+                <div className="paperbox">1paperevent2</div>
+              </div>;
             case "t3":
               return <div className="paperbox">1paperevent3</div>;
             default:

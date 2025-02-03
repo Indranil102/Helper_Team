@@ -248,31 +248,32 @@ body {
 
 .ppr-selector {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  gap: 20px;
+  align-items: center;
   margin: 50px auto; 
+  justify-content: center;
   padding: 0 5%; 
 }
 
 
 .sem-selectors {
   display: flex;
-
+  
   flex-direction: column; 
   gap: 20px; 
   max-width: 10%;
   margin: 0;
   flex-direction: column;
-  gap: 20px;
   align-items: center; 
 
 }
 
 .sem-selector {
   display: inline-block;
+  margin-left: 100px;
   background-color:  #f8f7ff;
   padding: 10px 15px;
-  max-width: 100px;
+  width: 300px;
   border: 1px solid white;
   color: black;
   text-align: center;
@@ -292,13 +293,11 @@ body {
 .selected-content {
   padding: 5px 15px;
   flex: 1;
-  margin-left: 100px;
+  margin-left: 200px;
   background-color: #6200ea;
-  width: 100px;
- 
-  
-  
-  
+  min-width: 150px;
+  max-width: 250px;
+
 }
 
 .test{
