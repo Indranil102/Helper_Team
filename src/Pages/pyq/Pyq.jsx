@@ -60,14 +60,14 @@ const Pyq = () => {
             <a href="#link3" className={selectedYear === 'fourth'? 'selected': ''} onClick={() => setSelectedYear('fourth')}>4 Year</a>
           </div>
         </div>
-        <div className="dropdown">
+        {/* <div className="dropdown">
           <button className="dropdown-button">Foundation<MdOutlineKeyboardArrowDown /></button>
           <div className="dropdown-content">
             <a href="#link1">Link 1</a>
             <a href="#link2">Link 2</a>
             <a href="#link3">Link 3</a>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className='ppr-selector'>
        

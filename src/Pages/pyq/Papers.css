@@ -1,7 +1,9 @@
 
 .paper-container{
     display: flex;
-    justify-content:space-evenly;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .paperbox{
@@ -9,11 +11,13 @@
 
     
     width:280px ;
-    height: 210px;
+    height: 200px;
     border-radius: 12px;
     margin-left: 30px;
     margin-top: 0px;
+    margin-bottom: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: x-large;
@@ -23,6 +27,6 @@
     
 }
 .paperbox img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
