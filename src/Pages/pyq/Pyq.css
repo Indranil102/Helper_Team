@@ -61,6 +61,8 @@ body {
   width: 150px;
   text-align: center;
   max-height: 50px;
+  font-size:large;
+  font-weight: 600;
 }
 .dropdown-content {
   margin-top: 2px;
@@ -79,6 +81,7 @@ body {
 }
 
 .dropdown-content a {
+  
   padding: 10px;
   text-decoration: none;
   color: #f8f7ff;
