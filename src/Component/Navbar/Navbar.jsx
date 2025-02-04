@@ -8,7 +8,9 @@ const Navbar = () => {
     const toggleMenu = () => {
         setMenuActive(!menuActive);
     };
-
+    const notavailable = () =>{
+        alert("Comming Soon")
+      };
     return (
         <div className="Navbar">
             <div className="brand">HelperTeam</div>
@@ -18,8 +20,8 @@ const Navbar = () => {
             <ul className={`helper ${menuActive ? 'active' : ''}`}>
                 <Link to="/"><li><button>Home</button></li></Link>
                 <Link to="/Pyq"><li><button>PYQ</button></li></Link>
-                <Link to="/Lectures"><li><button>Lectures</button></li></Link>
-                <Link to="/Notes"><li><button>Notes</button></li></Link>
+                {/* <Link to="/Lectures">*/}<li><button onClick={notavailable}>Lectures</button></li>{/*</Link> */}
+                {/* <Link to="/Notes">*/}<li><button onClick={notavailable}>Notes</button></li>{/*</Link> */}
                 <Link to="/Juetserver"><li><button>JUET Server</button></li></Link>
                 <Link to="/About"><li><button>About</button></li></Link>
                 <Link to="/signup"><li><button className="signin">Sign in</button></li></Link>

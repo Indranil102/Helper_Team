@@ -6,9 +6,9 @@ import Papers from './Papers';
 
 const Pyq = () => {
   const [selectedSem, setSelectedSem] = useState('odd');  
-  const [selectedtest, setSelectedtest] = useState('t0');
+  const [selectedtest, setSelectedtest] = useState('T0');
   const [clickedTest, setClickedTest] = useState(false);
-  const [selectedYear, setSelectedYear] = useState('first');
+  const [selectedYear, setSelectedYear] = useState('First');
   function handleTestClick(test) {
     setSelectedtest(test);
     setClickedTest(true);
@@ -19,13 +19,13 @@ const Pyq = () => {
       selectedSem === 'odd' ? (
         <>
           <div style={{gap:'20px', display:'flex', flexDirection:'column'}}>
-          <div className={`test ${selectedtest === 't1' ? 'selected' : ''}`} onClick={() => handleTestClick('t1')}>
+          <div className={`test ${selectedtest === 'T1' ? 'selected' : ''}`} onClick={() => handleTestClick('T1')}>
             <h3>T1 odd</h3>
           </div>
-          <div className={`test ${selectedtest === 't2' ? 'selected' : ''}`} onClick={() => handleTestClick('t2')}>
+          <div className={`test ${selectedtest === 'T2' ? 'selected' : ''}`} onClick={() => handleTestClick('T2')}>
             <h3>T2 odd</h3>
           </div>
-          <div className={`test ${selectedtest === 't3' ? 'selected' : ''}`} onClick={() => handleTestClick('t3')}>
+          <div className={`test ${selectedtest === 'T3' ? 'selected' : ''}`} onClick={() => handleTestClick('T3')}>
             <h3>T3 odd</h3>
           </div>
           </div>
@@ -33,13 +33,13 @@ const Pyq = () => {
       ) : (
         <>
           <div style={{gap:'20px', display:'flex',flexDirection:'column'}}>
-          <div className={`test ${selectedtest === 't1' ? 'selected' : ''}`} onClick={() => handleTestClick('t1')}>
+          <div className={`test ${selectedtest === 'T1' ? 'selected' : ''}`} onClick={() => handleTestClick('T1')}>
             <h3>T1 even</h3>
           </div>
-          <div className={`test ${selectedtest === 't2' ? 'selected' : ''}`} onClick={() => handleTestClick('t2')}>
+          <div className={`test ${selectedtest === 'T2' ? 'selected' : ''}`} onClick={() => handleTestClick('T2')}>
             <h3>T2 even</h3>
           </div>
-          <div className={`test ${selectedtest === 't3' ? 'selected' : ''}`} onClick={() => handleTestClick('t3')}>
+          <div className={`test ${selectedtest === 'T3' ? 'selected' : ''}`} onClick={() => handleTestClick('T3')}>
             <h3>T3 even</h3>
           </div>
           </div>
@@ -56,10 +56,10 @@ const Pyq = () => {
         <div className="dropdown">
           <button className="dropdown-button">{selectedYear} Year<MdOutlineKeyboardArrowDown /></button>
           <div className="dropdown-content"> 
-            <a href="#link1" className={selectedYear === 'first'? 'selected': ''} onClick={() => setSelectedYear('first')}>1 Year</a>
-            <a href="#link2" className={selectedYear === 'second'? 'selected': ''} onClick={() => setSelectedYear('second')}>2 Year</a>
-            <a href="#link3" className={selectedYear === 'third'? 'selected': ''} onClick={() => setSelectedYear('third')}>3 Year</a>
-            <a href="#link3" className={selectedYear === 'fourth'? 'selected': ''} onClick={() => setSelectedYear('fourth')}>4 Year</a>
+            <a href="#link1" className={selectedYear === 'First'? 'selected': ''} onClick={() => setSelectedYear('First')}>1 Year</a>
+            <a href="#link2" className={selectedYear === 'Second'? 'selected': ''} onClick={() => setSelectedYear('Second')}>2 Year</a>
+            <a href="#link3" className={selectedYear === 'Third'? 'selected': ''} onClick={() => setSelectedYear('Third')}>3 Year</a>
+            <a href="#link3" className={selectedYear === 'Fourth'? 'selected': ''} onClick={() => setSelectedYear('Fourth')}>4 Year</a>
           </div>
         </div>
         {/* <div className="dropdown">
@@ -96,10 +96,10 @@ const Pyq = () => {
         </div> 
       </div>
       
-      <div className='pyqs'><h4>PYQs</h4></div>
+      <div className='pyqs'><h4>PYQs{clickedTest && (<div className='pyqshow'>{selectedtest}</div>)}</h4></div>
       
       {clickedTest && (
-
+        
         <div className='selected-test'>
         <div className='select-paper'>
           <Papers Sem={selectedSem} test={selectedtest} year={selectedYear}/>

@@ -29,6 +29,9 @@ const HomePage = () => {
     const handleMouseLeave = () => {
       setTransformStyle('translate(0, 0)'); 
     };
+    const notavailable = () =>{
+      alert("Comming Soon")
+    };
   
   return (
     
@@ -43,18 +46,18 @@ const HomePage = () => {
                  Find notes, past question papers, and essential tools to excel academically.
                  Join thousands of students who trust us as their go-to resource hub. Take the next step towards success today!</p>
                 <div className="container">
-                    <Link to='/Lectures' style={{ textDecoration: 'none' }}>
-                    <div className="click">
+                    {/* <Link to='/Lectures' style={{ textDecoration: 'none' }}> */}
+                    <div className="click" onClick={notavailable}>
                         <RxLaptop />
                         <p>Lectures</p>
                     </div>
-                    </Link>
-                    <Link to='/Notes' style={{ textDecoration: 'none' }}>
-                    <div className="click">
+                    {/* </Link> */}
+                    {/* <Link to='/Notes' style={{ textDecoration: 'none' }}> */}
+                    <div className="click" onClick={notavailable}>
                         <BsPencilSquare />
                         <p>Notes</p>
                     </div>
-                    </Link>
+                    {/* </Link> */}
                     <Link to='/Pyq' style={{ textDecoration: 'none' }}>
                     <div className="click">
                         <FaRegFileAlt />
