@@ -84,6 +84,14 @@ body {
     border-color: purple;
     transform: scale(1.1) translateY(-2px);
 }
+.helper button.active {
+    background-color: #007bff; /* Highlight color */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
 @media (max-width: 795px) {
     .Navbar {

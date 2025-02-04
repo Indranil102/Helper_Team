@@ -139,7 +139,7 @@ h4 button:hover,
     transition: transform 0.5s ease, color 0.3s ease;
 }
 
-.click:hover {
+.click:active{
     transform: translateX(-5px) translateY(-5px); 
     background-color:#8B008B;
 }
