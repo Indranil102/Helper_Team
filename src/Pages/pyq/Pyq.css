@@ -340,13 +340,18 @@ body {
 }
 
 .test.selected{
-  background-color: #6200ea;
+  background-color: #8B008B;
   color: #f8f7ff;
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+  font-size: 20px;
+  font-weight: 800;
+  transition: background-color 0.3s ease, color 0.3s ease, height 0.3s;
 }
 .pyqs{
   text-align: center;
   font-size: xx-large;
   color:  #f8f7ff;
   margin-bottom: 20px;
+}
+.pyqshow{
+  font-size: x-large;
 }
