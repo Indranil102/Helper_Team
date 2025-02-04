@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
+import React, { useState } from 'react';
 import HomePage from './Pages/home/HomePage';
 import Navbar from './Component/Navbar/Navbar';
 import Pyq from './Pages/pyq/Pyq';
@@ -21,13 +21,13 @@ function App() {
   const ProtectedRoute = ({ element }) => {
     return selectedYear ? element : <Navigate to="/select-year" replace />;
   };*/
-
+  const [activePath, setActivePath] = useState('/'); 
   return (
     <BrowserRouter>
-    <Navbar/>
+    <Navbar activePath={activePath} setActivePath={setActivePath}/>
       <Routes>
         
-      <Route path='/' element={<HomePage />} />
+      <Route path='/' element={<HomePage setActivePath={setActivePath}/>} />
       <Route path='/pyq' element={<Pyq/>} />
       {/* <Route path='/Lectures' element={<Lectures/>} /> */}
 
