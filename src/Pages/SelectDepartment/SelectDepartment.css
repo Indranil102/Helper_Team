@@ -3,7 +3,7 @@
   background-color: #27272A;
   position: relative;
   width: 100vw;
-  height: 80vh;
+  height: 75vh;
   overflow: hidden;
   padding: 0;
   margin: 0;
@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 75vh;
   flex-wrap: wrap;
   width: 100%; 
   text-align: center; 
@@ -70,7 +70,7 @@
   height: 50px;
 }
 .box:hover {
-  background-color: rgb(74, 60, 180);
+  background-color: #007BFF;
   color: white;
   transform: scale(1.05);
 }

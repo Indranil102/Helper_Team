@@ -81,16 +81,17 @@ body {
 
 .helper button:hover, .helper .signin:hover {
     color: #f8f7ff;
-    border-color: purple;
+    border-color: #87CEEB;
     transform: scale(1.1) translateY(-2px);
 }
 .helper button.active {
-    background-color: #007bff; /* Highlight color */
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
+    /* background-color: #8B008B; */
+    color: #f8f7ff;
+    font-weight: 700;
+    
+    border-radius: 25px;
     transition: background-color 0.3s ease;
+    border-bottom-color: #f8f7ff;
 }
 
 @media (max-width: 795px) {
