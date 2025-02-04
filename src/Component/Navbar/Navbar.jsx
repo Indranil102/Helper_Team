@@ -23,8 +23,8 @@ const Navbar = ({activePath,setActivePath}) => {
                 {/* <Link to="/Notes">*/}<li><button onClick={notavailable}>Notes</button></li>{/*</Link> */}
                 <Link to="/Juetserver"><li><button className={activePath === '/Juetserver' ? 'active' : ''} onClick={() => setActivePath('/Juetserver')}>JUET Server</button></li></Link>
                 <Link to="/About"><li><button className={activePath === '/About' ? 'active' : ''} onClick={() => setActivePath('/About')}>About</button></li></Link>
-                <Link to="/signup"><li><button className={`signin ${activePath === '/signup' ? 'active' : ''}`}
-                            onClick={() => setActivePath('/signup')}>Sign in</button></li></Link>
+                <li><button className={`signin ${activePath === '/signup' ? 'active' : ''}`}
+                            onClick={notavailable}>Sign in</button></li>
             </ul>
         </div>
     );
