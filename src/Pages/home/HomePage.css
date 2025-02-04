@@ -1,295 +1,298 @@
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {   
+max-width: 100%;
+overflow-x: hidden;
+margin: 0;
+font-family: Arial, sans-serif;
 }
 
 svg {
-    color: #f8f7ff
+color: #f8f7ff
 }
 
 .Navbar {
-    background-color: rgb(39, 39, 42); 
-    width: 100%; 
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15px;
-    transition: width 0.3s ease-in-out; 
-    border-bottom: 2px solid white;
-    box-sizing: border-box;
+background-color: rgb(39, 39, 42); 
+width: 100%; 
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 15px;
+transition: width 0.3s ease-in-out; 
+border-bottom: 2px solid white;
+box-sizing: border-box;
 }
 
 .helper {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    flex-wrap: wrap; 
-    padding: 0;
-    margin: 0;
+display: flex;
+align-items: center;
+list-style: none;
+flex-wrap: wrap; 
+padding: 0;
+margin: 0;
 }
 
 .helper h2 {
-    margin: 0 15px;
-    font-weight: 800;
-    font-size: 26px;
-    color: #f8f7ff;
-    cursor: pointer;
+margin: 0 15px;
+font-weight: 800;
+font-size: 26px;
+color: #f8f7ff;
+cursor: pointer;
 }
 
 h4 button, 
 .helper .signin {
-    color: #f8f7ff; 
-    border: 2px solid #27272A; 
-    background: none; 
-    padding: 8px 16px; 
-    border-radius: 25px; 
-    cursor: pointer; 
-    font-size: 18px; 
-    transition: border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-    margin: 5px;
+color: #f8f7ff; 
+border: 2px solid #27272A; 
+background: none; 
+padding: 8px 16px; 
+border-radius: 25px; 
+cursor: pointer; 
+font-size: 18px; 
+transition: border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+margin: 5px;
 }
 
 h4 button:hover,
 .helper .signin:hover {
-    border-color: purple; 
-    color:#f8f7ff;
-    transform: scale(1.1) translateY(-2px);
+border-color: purple; 
+color:#f8f7ff;
+transform: scale(1.1) translateY(-2px);
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    background-color: #27272A;
-    padding: 20px;
-    box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+background-color: #27272A;
+padding: 20px;
+box-sizing: border-box;
 }
 
 .left-Content {
-    flex: 1 1 500px; 
-    padding: 15px;
-    box-sizing: border-box;
+flex: 1 1 500px; 
+padding: 15px;
+box-sizing: border-box;
 }
 
 .left-Content h2 {
-    font-size: 36px; 
-    color:#f8f7ff; 
-    margin-bottom: 15px;
-    text-align: left;
+font-size: 36px; 
+color:#f8f7ff; 
+margin-bottom: 15px;
+text-align: left;
 }
 
-.left-Content p {
-    font-size: 16px; 
-    color:#f8f7ff; 
-    line-height: 1.6;
+.left-font{
+font-size: 16px; 
+color:#f8f7ff; 
+line-height: 1.6;
+font-family:"Kaushan Script",serif;
+font-weight: 500;
 }
 
 .right {
-    position: relative;
-    overflow: hidden; 
-  } 
-  
-  .right img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin: 0 auto;
-    transition: transform 0.1s ease-out; 
-  }
-  
+position: relative;
+overflow: hidden; 
+} 
+
+.right img {
+width: 100%;
+max-width: 600px;
+height: auto;
+margin: 0 auto;
+transition: transform 0.1s ease-out; 
+}
+
 
 
 .container {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;
-    margin-left: 10%;
-    margin-top: 40px;
-    max-width: 400px;
+display: flex;
+flex-wrap: wrap; 
+gap: 20px;
+margin-left: 10%;
+margin-top: 40px;
+max-width: 400px;
 }
 
 .click {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: flex-end;
-    width: 180px;
-    max-width: 300px; 
-    min-width: 100px;
-    height: 14vh;
-    border-radius: 8px; 
-    border: 1px solid white;
-    
-    transition: transform 0.5s ease, background-color 0.5s ease;
-    cursor: pointer;
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+justify-content: flex-end;
+width: 180px;
+max-width: 300px; 
+min-width: 100px;
+height: 14vh;
+border-radius: 8px; 
+border: 1px solid white;
+
+transition: transform 0.5s ease, background-color 0.5s ease;
+cursor: pointer;
 
 
 }
 
 .click p {
-    font-size: 14px; 
-    font-weight: 600;
-    color: #f8f7ff; 
-    text-align: center;
-    border-style: none;
-    text-decoration: none; 
-    transition: transform 0.5s ease, color 0.3s ease;
+font-size: 14px; 
+font-weight: 600;
+color: #f8f7ff; 
+text-align: center;
+border-style: none;
+text-decoration: none; 
+transition: transform 0.5s ease, color 0.3s ease;
 }
-
-.click:hover {
-    transform: translateX(-5px) translateY(-5px); 
-    background-color:#8B008B;
+.click:hover p{color:#27272A;}
+.click:hover{
+transform: translateX(-5px) translateY(-5px); 
+background-color: #87CEEB;
 }
 
 
 
 .extra {
-    color: #f8f7ff;
-    margin: 15px auto;
-    padding: 0 30px;
+color: #f8f7ff;
+margin: 15px auto;
+padding: 0 30px;
 }
 
 .extra .imp {
-    display: flex;
-    align-items: center;
-    margin-left: 5%;
-    gap: 20px;
-    flex-wrap: wrap;
-    
+display: flex;
+align-items: center;
+margin-left: 5%;
+gap: 20px;
+flex-wrap: wrap;
+
 }
 
 .extra h3 {
-    margin: 0;
+margin: 0;
 }
 
 .extra .imp h5 a {
-    text-decoration: none;
-    padding: 8px 16px;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    background-color: rgb(74, 60, 180);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    cursor: pointer; 
+text-decoration: none;
+padding: 8px 16px;
+border: 1px solid white;
+border-radius: 5px;
+color: white;
+font-size: 16px;
+background-color: #007BFF;
+transition: transform 0.3s ease, box-shadow 0.3s ease; 
+cursor: pointer; 
 }
 .extra .imp h5 a svg{
-    margin-left: 10px;
-    height: 15px;
-    display: inline;
+margin-left: 10px;
+height: 15px;
+display: inline;
 
 }
 .extra .imp h5:hover {
-    transform: translateY(-5px); 
+transform: translateY(-5px); 
 }
 
 .extra h3 svg {
-    font-size: 20px;
-    color: #f8f7ff;
-    margin-right: 8px;
-    height: 20px;
-   
+font-size: 20px;
+color: #f8f7ff;
+margin-right: 8px;
+height: 20px;
+
 }
 
 .HeroSection .click svg {
-    font-size: 40px;
-    color: #007BFF;
-    margin-top: 10px;
+font-size: 40px;
+color: #007BFF;
+margin-top: 10px;
 }
 
 .click svg:hover, 
 .extra h3 svg:hover {
-    color: #f8f7ff;
-    transform: scale(1.1);
-    transition: all 0.2s ease-in-out;
+color: #f8f7ff;
+transform: scale(1.1);
+transition: all 0.2s ease-in-out;
 }
 
 
 @media (max-width: 1024px) {
-    .Navbar {
-        flex-direction: column;
-        height: auto;
-        padding: 10px;
-    }
+.Navbar {
+flex-direction: column;
+height: auto;
+padding: 10px;
+}
 
-    .helper {
-        justify-content: center;
-    }
+.helper {
+justify-content: center;
+}
 
-    .left-Content h2 {
-        font-size: 30px;
-        text-align: center;
-    }
+.left-Content h2 {
+font-size: 30px;
+text-align: center;
+}
 
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
+.content {
+flex-direction: column;
+align-items: center;
+}
 
-    .extra .imp {
-        flex-direction: row;
-    }
+.extra .imp {
+flex-direction: row;
+}
 }
 
 /* Mobile View */
 @media (max-width: 768px) {
-    .helper h2 {
-        font-size: 22px;
-        text-align: center;
-    }
+.helper h2 {
+font-size: 22px;
+text-align: center;
+}
 
-    h4 button, 
-    .helper .signin {
-        font-size: 16px;
-        padding: 8px 12px;
-    }
+h4 button, 
+.helper .signin {
+font-size: 16px;
+padding: 8px 12px;
+}
 
-    .left-Content h2 {
-        font-size: 24px;
-    }
+.left-Content h2 {
+font-size: 24px;
+}
 
-    .right img {
-        max-width: 90%;
-    }
+.right img {
+max-width: 90%;
+}
 
-    .extra .imp h5 a {
-        font-size: 14px;
-        padding: 6px 12px;
-    }
+.extra .imp h5 a {
+font-size: 14px;
+padding: 6px 12px;
+}
 }
 
 /* Small Mobile View */
 @media (max-width: 480px) {
-    .Navbar {
-        padding: 10px;
-    }
+.Navbar {
+padding: 10px;
+}
 
-    .helper h2 {
-        font-size: 20px;
-    }
+.helper h2 {
+font-size: 20px;
+}
 
-    h4 button, 
-    .helper .signin {
-        font-size: 14px;
-        padding: 6px 10px;
-    }
+h4 button, 
+.helper .signin {
+font-size: 14px;
+padding: 6px 10px;
+}
 
-    .left-Content h2 {
-        font-size: 20px;
-        text-align: center;
-    }
+.left-Content h2 {
+font-size: 20px;
+text-align: center;
+}
 
-    .click {
-        max-width: 100%;
-        height: auto;
-        padding: 10px;
-    }
+.click {
+max-width: 100%;
+height: auto;
+padding: 10px;
+}
 
-    .extra .imp h5 a {
-        font-size: 12px;
-        padding: 4px 8px;
-    }
+.extra .imp h5 a {
+font-size: 12px;
+padding: 4px 8px;
+}
 }

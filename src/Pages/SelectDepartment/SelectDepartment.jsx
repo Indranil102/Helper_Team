@@ -13,6 +13,8 @@ import { BiMath } from "react-icons/bi";
 
 const SelectDepartment = () => {
   return (
+    <>
+    <div><h2 style={{textAlign:'center',color:'#f8f7ff',paddingTop:'5px'}}>JUET SERVER</h2></div>
     <div className='mom'>
       <div className="select-year-fullscreen">
           
@@ -41,6 +43,7 @@ const SelectDepartment = () => {
           </div>
         </div>
     </div>
+    </>
   )
 }
 

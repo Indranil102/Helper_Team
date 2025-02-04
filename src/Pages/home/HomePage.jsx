@@ -42,7 +42,7 @@ const HomePage = () => {
         <div className="content">
             <div className="left-Content">
                 <h2>HelperTeam</h2>
-                <p>Elevate your Academic journey with our website!
+                <p className='left-font'>Elevate your Academic journey with our website!
                  Find notes, past question papers, and essential tools to excel academically.
                  Join thousands of students who trust us as their go-to resource hub. Take the next step towards success today!</p>
                 <div className="container">
