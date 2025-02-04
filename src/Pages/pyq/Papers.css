@@ -5,7 +5,9 @@
     justify-content: center;
 
 }
-
+.paper-container a{
+    text-decoration: none;
+}
 .paperbox{
     border: 1px solid white;
 
