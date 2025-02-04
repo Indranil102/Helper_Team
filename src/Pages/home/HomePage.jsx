@@ -10,7 +10,7 @@ import { FaRegFileAlt } from "react-icons/fa";
 import { HiOutlineServer } from "react-icons/hi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 
-const HomePage = () => {
+const HomePage = ({setActivePath}) => {
      const [transformStyle, setTransformStyle] = useState('translate(0, 0)');
 
     const handleMouseMove = (e) => {
@@ -58,13 +58,13 @@ const HomePage = () => {
                         <p>Notes</p>
                     </div>
                     {/* </Link> */}
-                    <Link to='/Pyq' style={{ textDecoration: 'none' }}>
+                    <Link to='/Pyq' onClick={() => setActivePath('/Pyq')} style={{ textDecoration: 'none' }}>
                     <div className="click">
                         <FaRegFileAlt />
                         <p>PYQ</p>
                     </div>
                     </Link>
-                    <Link to='/Juetserver' style={{ textDecoration: 'none' }}>
+                    <Link to='/Juetserver' onClick={() => setActivePath('/Juetserver')} style={{ textDecoration: 'none' }}>
                     <div className="click">
                         <HiOutlineServer size={50} />
                         <p>JUET Server</p>
