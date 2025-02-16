@@ -38,15 +38,19 @@ To run this project locally, follow these steps:
 **Project Structure**
 
 helper-team/
+│
 ├── public/              # Static assets
+│
 ├── src/                 # Source code
 │   ├── components/      # React components
 │   ├── assets/          # Images, icons, etc.
 │   ├── styles/          # CSS files
 │   ├── App.jsx          # Main application component
 │   └── main.jsx         # Entry point
+│
 ├── .gitignore           # Files to ignore in Git
 ├── index.html           # Main HTML file
 ├── package.json         # Project dependencies
 ├── vite.config.js       # Vite configuration
 └── README.md            # Project documentation
+
