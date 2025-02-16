@@ -53,4 +53,14 @@ helper-team/
 ├── vite.config.js       # Vite configuration
 └── README.md            # Project documentation
 
+License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+**Contact**
+
+For any questions or feedback, feel free to reach out:
+
+    Email: indrnailsamanta2003@gmail.com
 
