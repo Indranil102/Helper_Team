@@ -25,4 +25,5 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/helper-team.git
 2. **Navigate to the project directory**:
-  ```cd helper-team
+  ```bash
+cd helper-team
