@@ -25,7 +25,28 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/helper-team.git
 
-   
 2. **Navigate to the project directory**:
     ```bash
      cd helper-team
+3. **Install dependencies**:
+    ```bash
+    npm install
+4. **Start the development server**:
+   ```bash
+   npm run dev
+
+**Project Structure**
+
+helper-team/
+├── public/              # Static assets
+├── src/                 # Source code
+│   ├── components/      # React components
+│   ├── assets/          # Images, icons, etc.
+│   ├── styles/          # CSS files
+│   ├── App.jsx          # Main application component
+│   └── main.jsx         # Entry point
+├── .gitignore           # Files to ignore in Git
+├── index.html           # Main HTML file
+├── package.json         # Project dependencies
+├── vite.config.js       # Vite configuration
+└── README.md            # Project documentation
